@@ -4,6 +4,7 @@ create table if not exists Iut(
     id_iut int not null auto_increment,
     nom_iut varchar(25),
     adresse varchar(50),
+    nb_etu int,
     primary key (id_iut)
 );
 
