@@ -11,9 +11,9 @@
         <h1><?= $title ?></h1>
         <nav>
             <ul>
-                <li class="active"><a href="accueil.php">Accueil</a></li>
+                <li class="active"><a href="index.php">Accueil</a></li>
                 <li><a href="#">Manifestations</a></li>
-                <li><a href="#">IUT</a></li>
+                <li><a href="?p=iut">IUT</a></li>
                 <li><a href="#">Etudiants</a></li>
                 <li><a href="#">Epreuves</a></li>
             </ul>
