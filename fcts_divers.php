@@ -12,6 +12,7 @@
 	</head>
 
 	<body>
+		<img src="public/images/iut.png" width="30%"/>
 		<h1><?= $title ?></h1>
 		<nav>
 			<ul>
