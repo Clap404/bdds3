@@ -2,6 +2,7 @@
 
 # Ce script génère le fichier de configuration "config.php"
 #
+# <?php
 # $DB = array(
 #     "TYPE" => "mysql" ,
 #     "HOST" => "localhost" ,
@@ -33,7 +34,7 @@ ask(){
 }
 
 echo "=== paramètres de la base de donnée ==="
-echo '$DB = array(' > $config_file
+echo -e '<?php\n$DB = array(' > $config_file
 
 ask "type de la base de donnée" "mysql" "TYPE"
 ask "serveur hôte" "localhost" "HOST"
