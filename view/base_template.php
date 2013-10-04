@@ -7,8 +7,10 @@
     </head>
 
     <body>
-        <img src="public/images/iut.png" width="30%"/>
-        <h1><?= $title ?></h1>
+        <img src="public/images/iut.png" width="30%"/><br>
+        <center>    
+            <h1><?= $title ?></h1>
+        </center>
         <nav>
             <ul>
                 <li class="active"><a href="index.php">Accueil</a></li>
