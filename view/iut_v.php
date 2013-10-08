@@ -50,8 +50,9 @@
 				<td><?= $value[1] ?></td>
 				<td><?= $value[2] ?></td>
 				<td><?= $value[3] ?></td>
-				<td><?= '<a href="?p=iut&amp;act=edit&amp;id='.$value[0].'"><img class="icon" src="public/images/edit.png" width="20px"/></a>'?>
-				<?= '<a href="?p=iut&amp;act=delete&amp;id='.$value[0].'"><img class="icon" src="public/images/delete.png" width="20px"/></a>'?></td>
+
+				<td><?= '<a href="?p=iut&amp;act=edit&amp;id='.$value[0].'"><img src="public/images/edit.png" class="icon"/></a>'?>
+				<?= '<a href="?p=iut&amp;act=delete&amp;id='.$value[0].'"><img src="public/images/delete.png" class="icon"/></a>'?></td>
 			</tr>
 
 		<?php

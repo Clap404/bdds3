@@ -4,6 +4,13 @@
         <meta charset="utf-8"/>
         <link rel="stylesheet" type="text/css" href="public/css/bdds3.css">
         <title><?= $title ." | Projet BDD S3" ?></title>
+
+        <script type="text/javascript">
+            function setActiveSection(){
+                
+            }
+        </script>
+
     </head>
 
     <body>
@@ -13,7 +20,7 @@
         </center>
         <nav>
             <ul>
-                <li class="active"><a href="index.php">Accueil</a></li>
+                <li><a href="index.php">Accueil</a></li>
                 <li><a href="#">Manifestations</a></li>
                 <li><a href="?p=iut">IUT</a></li>
                 <li><a href="#">Etudiants</a></li>
