@@ -1,23 +1,38 @@
 <?php
-	function get_iut_name() {
+	function get_iut_name($desc) {
 		$connexion = db_connect();
-		$req = $connexion->query("SELECT * FROM Iut ORDER BY nom_iut;");
+		if($desc === true) {
+			$req = $connexion->query("SELECT * FROM Iut ORDER BY nom_iut DESC;");
+		}
+		else {
+			$req = $connexion->query("SELECT * FROM Iut ORDER BY nom_iut;");
+		}
 		$data = $req->fetchAll();
 		$req->closeCursor();
 		return $data;
 	}
 
-	function get_iut_adresse() {
+	function get_iut_adresse($desc) {
 		$connexion = db_connect();
-		$req = $connexion->query("SELECT * FROM Iut ORDER BY adresse;");
+		if($desc) {
+			$req = $connexion->query("SELECT * FROM Iut ORDER BY adresse;");
+		}
+		else {
+			$req = $connexion->query("SELECT * FROM Iut ORDER BY adresse DESC;");
+		}
 		$data = $req->fetchAll();
 		$req->closeCursor();
 		return $data;
 	}
 
-	function get_iut_nbetu() {
+	function get_iut_nbetu($desc) {
 		$connexion = db_connect();
-		$req = $connexion->query("SELECT * FROM Iut ORDER BY nb_etu;");
+		if($desc) {
+			$req = $connexion->query("SELECT * FROM Iut ORDER BY nb_etu;");
+		}
+		else {
+			$req = $connexion->query("SELECT * FROM Iut ORDER BY nb_etu DESC;");
+		}
 		$data = $req->fetchAll();
 		$req->closeCursor();
 		return $data;

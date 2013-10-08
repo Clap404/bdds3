@@ -1,22 +1,30 @@
 <?php
 	ob_start();
+	
+	if(isset($_GET['desc'])) {
+		$desc = ($_GET['desc'] === "1" ? true : false);
+	}
+	else{
+		$desc = false;
+	}
+
 	if(isset($_GET['order'])) {
 		switch($_GET['order']) {
 			case "name":
-				$table_iut = get_iut_name();
+				$table_iut = get_iut_name($desc);
 			break;
 
 			case "adresse":
-				$table_iut = get_iut_adresse();
+				$table_iut = get_iut_adresse($desc);
 			break;
 
 			case "nbetu":
-				$table_iut = get_iut_nbetu();
+				$table_iut = get_iut_nbetu($desc);
 			break;
 		}
 	}
 	else {
-		$table_iut = get_iut_name();
+		$table_iut = get_iut_name($desc);
 	}
 ?>
 	
@@ -24,9 +32,9 @@
 		<thead>
 			<tr>
 				<td>id_iut</td>
-				<td><a href="?p=iut&amp;order=name">nom_iut</a></td>
-				<td><a href="?p=iut&amp;order=adresse">adresse</a></td>
-				<td><a href="?p=iut&amp;order=nbetu">nb_etu</a></td>
+				<td><a href=<?='"?p=iut&amp;order=name&amp;desc='.(int)!$desc.'"'?>>nom_iut</a></td>
+				<td><a href=<?='"?p=iut&amp;order=adresse&amp;desc='.(int)!$desc.'"'?>>adresse</a></td>
+				<td><a href=<?='"?p=iut&amp;order=nbetu&amp;desc='.(int)!$desc.'"'?>>nb_etu</a></td>
 				<td>action</td>
 			</tr>
 		</thead>
