@@ -35,7 +35,7 @@
 				<td><a href=<?='"?p=iut&amp;order=name&amp;desc='.(int)!$desc.'"'?>>nom_iut</a></td>
 				<td><a href=<?='"?p=iut&amp;order=adresse&amp;desc='.(int)!$desc.'"'?>>adresse</a></td>
 				<td><a href=<?='"?p=iut&amp;order=nbetu&amp;desc='.(int)!$desc.'"'?>>nb_etu</a></td>
-				<td>action</td>
+				<td>Action</td>
 			</tr>
 		</thead>
 		<tbody>
@@ -59,8 +59,8 @@
 				<td><?= $value[2] ?></td>
 				<td><?= $value[3] ?></td>
 
-				<td><?= '<a href="?p=iut&amp;act=edit&amp;id='.$value[0].'"><img src="public/images/edit.png" class="icon"/></a>'?>
-				<?= '<a href="?p=iut&amp;act=delete&amp;id='.$value[0].'"><img src="public/images/delete.png" class="icon"/></a>'?></td>
+				<td><?= '<a href="?p=iut&amp;act=edit&amp;id='.$value[0].'"><img src="public/images/edit.png" class="icon id="edit"/></a>'?>
+				<?= '<a href="?p=iut&amp;act=delete&amp;id='.$value[0].'"><img src="public/images/delete.png" class="icon" id="delete"/></a>'?></td>
 			</tr>
 
 		<?php

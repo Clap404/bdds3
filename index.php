@@ -5,6 +5,10 @@
                 require("controller/iut.php");
             break;
 
+            case "epreuves":
+                require("controller/epreuves.php");
+            break;
+
             default:
                echo "<h1>Erreur</h1>";
             break;
