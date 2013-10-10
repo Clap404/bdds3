@@ -19,7 +19,7 @@
                 <li><a href="#">Manifestations</a></li>
                 <li><a href="?p=iut">IUT</a></li>
                 <li><a href="#">Etudiants</a></li>
-                <li><a href="#">Epreuves</a></li>
+                <li><a href="?p=epreuves">Epreuves</a></li>
             </ul>
         </nav>
 

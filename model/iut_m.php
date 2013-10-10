@@ -1,23 +1,38 @@
 <?php
-	function get_iut_name() {
+	function get_iut_name($desc) {
 		$connexion = db_connect();
-		$req = $connexion->query("SELECT * FROM Iut ORDER BY nom_iut;");
+		if($desc === true) {
+			$req = $connexion->query("SELECT * FROM Iut ORDER BY nom_iut DESC;");
+		}
+		else {
+			$req = $connexion->query("SELECT * FROM Iut ORDER BY nom_iut;");
+		}
 		$data = $req->fetchAll();
 		$req->closeCursor();
 		return $data;
 	}
 
-	function get_iut_adresse() {
+	function get_iut_adresse($desc) {
 		$connexion = db_connect();
-		$req = $connexion->query("SELECT * FROM Iut ORDER BY adresse;");
+		if($desc) {
+			$req = $connexion->query("SELECT * FROM Iut ORDER BY adresse;");
+		}
+		else {
+			$req = $connexion->query("SELECT * FROM Iut ORDER BY adresse DESC;");
+		}
 		$data = $req->fetchAll();
 		$req->closeCursor();
 		return $data;
 	}
 
-	function get_iut_nbetu() {
+	function get_iut_nbetu($desc) {
 		$connexion = db_connect();
-		$req = $connexion->query("SELECT * FROM Iut ORDER BY nb_etu;");
+		if($desc) {
+			$req = $connexion->query("SELECT * FROM Iut ORDER BY nb_etu;");
+		}
+		else {
+			$req = $connexion->query("SELECT * FROM Iut ORDER BY nb_etu DESC;");
+		}
 		$data = $req->fetchAll();
 		$req->closeCursor();
 		return $data;
@@ -34,5 +49,12 @@
 		$connexion = db_connect();
 		$req = $connexion->prepare("INSERT INTO Iut VALUES(NULL, ?, ?, ?);");
 		$req->execute(array($_POST['name'], $_POST['address'], $_POST['nb_etu']));
+		$req->closeCursor();
+	}
+
+	function modif_iut() {
+		$connexion = db_connect();
+		$req = $connexion->prepare("UPDATE Iut SET nom_iut=?, adresse=?, nb_etu=? WHERE id_iut=id_iut;");
+		$req->execute();
 		$req->closeCursor();
 	}
