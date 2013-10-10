@@ -1,100 +1,347 @@
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Strombeek-Bever","208-1188 Amet Av.",103);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Cumberland","134-1145 Duis Rd.",154);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Vucklabruck","899-7686 Augue St.",274);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Rijkevorsel","Ap #958-2000 Semper St.",115);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Graz","2866 Justo. Avenue",239);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Jerzu","P.O. Box 676, 2689 Nulla Av.",232);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Wanganui","418-1738 Morbi Ave",178);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Morro d'Alba","292-8653 Aliquam St.",221);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Nocera Umbra","128 Sem. Av.",181);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Borchtlombeek","Ap #148-959 Pede Ave",177);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Tranent","7130 In Rd.",290);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Attigliano","3613 Et Street",285);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Oelegem","P.O. Box 436, 323 Enim, Road",299);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Castelvecchio Calvisio","P.O. Box 304, 8559 Ipsum Avenue",116);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Labrecque","P.O. Box 837, 3773 Consequat St.",246);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Duluth","937-4092 Hymenaeos. Road",242);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Sandy","Ap #341-628 Vitae Rd.",248);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Port Coquitlam","8971 Odio Ave",240);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Saint-L?onard","P.O. Box 132, 9866 Donec Rd.",150);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Nodebais","2790 Ornare, Rd.",278);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Port Alice","Ap #454-5803 Mus. Av.",172);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Lanark","P.O. Box 958, 2815 Mauris Rd.",132);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Xhoris","225-1868 Dui. St.",287);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Stony Plain","Ap #326-7272 Neque. Avenue",124);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Neuville","P.O. Box 711, 8286 Purus, St.",265);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Markkleeberg","P.O. Box 658, 8189 Semper St.",137);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Ettelgem","280-4074 Donec Road",228);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Fort Providence","Ap #815-4940 Id, Rd.",119);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Poggiodomo","P.O. Box 288, 2338 Facilisi. St.",156);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Toronto","4613 Mauris, St.",158);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Scandriglia","685-2054 Semper St.",220);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Loppem","Ap #764-5831 Augue Avenue",123);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Prince Albert","479-8227 Vivamus Rd.",229);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Poviglio","9204 Ut Av.",285);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Evere","P.O. Box 951, 4595 Ultricies Road",152);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Borghetto di Borbera","233 Est, Rd.",272);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Ch?telineau","711-9299 Ipsum Rd.",250);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Palanzano","P.O. Box 998, 6563 Euismod St.",127);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Neusiedl am See","2942 Phasellus St.",288);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Jennersdorf","Ap #737-931 Adipiscing Av.",246);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Paulatuk","P.O. Box 705, 3084 Integer Ave",225);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Aieta","2759 Nec, Rd.",283);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Glauchau","Ap #564-7790 Aliquam Avenue",106);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Gontrode","Ap #761-7656 Arcu. Street",180);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Merthyr Tydfil","P.O. Box 676, 3704 Scelerisque, Rd.",265);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Empoli","173-1151 Semper St.",270);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Iqaluit","7542 Molestie Ave",234);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Sint-Niklaas","858-218 Mauris Rd.",260);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Bressoux","1120 Congue, Rd.",106);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Laramie","Ap #108-3476 Interdum. Ave",229);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Jupille-sur-Meuse","P.O. Box 535, 6039 Dolor Ave",223);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Sinaai-Waas","8826 Orci, Road",227);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Warminster","242-8367 Viverra. Rd.",123);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("North Vancouver","8384 Magna. St.",181);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Drayton Valley","976 Orci, Road",210);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Dallas","4203 Pede. Av.",181);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Yorkton","P.O. Box 757, 4164 Netus Ave",180);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Thiaumont","P.O. Box 751, 8852 Et Ave",294);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Isernia","P.O. Box 558, 1513 Sed Ave",220);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Ranst","377-5063 Nunc Ave",153);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Roubaix","788-4542 At Ave",172);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Baie-d'Urf?","Ap #773-5321 Egestas Ave",267);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Castri di Lecce","5197 Eleifend. Av.",204);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("North Saanich","Ap #953-5750 Magna. Rd.",145);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Itajau","Ap #164-6478 Nulla. Ave",173);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Compiugne","9043 Sem Av.",235);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Akron","P.O. Box 389, 8920 Felis. Road",190);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Traiskirchen","Ap #659-9907 Dis Avenue",161);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Ancaster Town","426-7584 Interdum. Av.",123);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Cinisi","297-1790 Mauris Ave",146);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Fossato di Vico","606-3273 Nisi Avenue",205);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Beauvais","P.O. Box 901, 9443 Eu Avenue",231);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Teralfene","Ap #886-8372 Fringilla, Avenue",112);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Dunoon","476-9436 Imperdiet St.",242);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Overland Park","Ap #269-8383 Odio. Avenue",119);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Blehen","Ap #431-6027 Purus Rd.",229);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Annapolis County","4821 Eleifend Street",151);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Pelago","Ap #628-6844 Rutrum St.",238);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Kerkhove","Ap #764-7504 Nec Rd.",204);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Ethe","717-5181 Vulputate, Road",113);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Poucet","1502 Ultricies Rd.",141);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("San Polo d'Enza","Ap #423-448 Nunc. Ave",221);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Shawville","Ap #549-3926 Augue Street",139);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("San Giovanni Lipioni","Ap #526-8802 Metus Avenue",292);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Runcorn","8888 Dignissim Rd.",171);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Rodgau","1238 Aliquam Rd.",182);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Charleville-Muziures","Ap #312-6425 Libero. Ave",140);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Vancouver","4010 Turpis. Ave",257);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("uvila","Ap #295-3505 Libero Road",185);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Cupar","Ap #252-708 Vulputate Road",205);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Paradise","P.O. Box 516, 2766 Dolor Rd.",269);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Guardia Sanframondi","P.O. Box 124, 6853 Rutrum Rd.",289);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Buckingham","4210 Cursus. Ave",122);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Cherain","4207 Mauris Rd.",154);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Neuville-en-Condroz","648-1134 Enim Road",159);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Quimper","Ap #119-7987 Cursus. Ave",104);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Galashiels","P.O. Box 981, 9850 Fusce St.",152);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Arsimont","4352 Ullamcorper Ave",162);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Trochu","Ap #679-8128 Ridiculus Ave",296);
-INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Meer","701-2679 Elit, St.",113);
+drop table Contenu;
+drop table Participe;
+drop table Epreuve;
+drop table Etudiant;
+drop table Manifestation;
+drop table Iut;
+
+create table Iut(
+    id_iut int not null auto_increment,
+    nom_iut varchar(25),
+    adresse varchar(50),
+    nb_etu int,
+    primary key (id_iut)
+);
+
+INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Mount Pearl","P.O. Box 814, 6349 Nec, Road",208);
+INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Bayreuth","Ap #197-4730 Metus. St.",201);
+INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Plauen","P.O. Box 311, 9468 Non Rd.",137);
+INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Episcopia","5028 Tincidunt Av.",144);
+INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Evansville","Ap #972-6930 Risus, Road",114);
+INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Clydebank","Ap #927-3696 Aenean Ave",266);
+INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Iqaluit","P.O. Box 102, 8690 Scelerisque, Street",256);
+INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Motueka","P.O. Box 706, 8040 Erat. Ave",115);
+INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Montreal","Ap #197-6802 Morbi Street",158);
+INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("West Valley City","P.O. Box 865, 795 Tristique Road",267);
+INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Rocca d'Arce","914-9537 Varius Rd.",220);
+INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Bierges","9244 Mi Road",119);
+INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Fino Mornasco","307-2067 Est Avenue",215);
+INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Sulzbach","P.O. Box 446, 6247 Pede, Street",194);
+INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Stevenage","318-9753 Lorem Rd.",112);
+INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Fort Wayne","809-8384 Risus St.",229);
+INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Alsemberg","3649 Nulla Ave",229);
+INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Leamington","4117 Ligula Av.",129);
+INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("Heilbronn","Ap #985-1131 Dapibus Rd.",130);
+INSERT INTO Iut (nom_iut,adresse,nb_etu) VALUES ("IJlst","Ap #613-770 Amet, Road",176);
+
+create table Epreuve(
+    id_epreuve int not null auto_increment,
+    nom_epreuve varchar(25),
+    primary key (id_epreuve)
+);
+
+INSERT INTO Epreuve (nom_epreuve) VALUES ("Saut en longueur");
+INSERT INTO Epreuve (nom_epreuve) VALUES ("VTT");
+INSERT INTO Epreuve (nom_epreuve) VALUES ("110m haies");
+INSERT INTO Epreuve (nom_epreuve) VALUES ("Badminton");
+INSERT INTO Epreuve (nom_epreuve) VALUES ("Football");
+
+create table Manifestation(
+    id_manif int not null auto_increment,
+    nom_manif varchar(25),
+    date_manif date,
+    id_iut int,
+    primary key (id_manif),
+    constraint fk_manif_iut foreign key(id_iut) references Iut(id_iut)
+);
+
+INSERT INTO Manifestation (nom_manif,date_manif,id_iut) VALUES ("iaculis","2014-11-12",12);
+INSERT INTO Manifestation (nom_manif,date_manif,id_iut) VALUES ("vel","2016-02-15",9);
+INSERT INTO Manifestation (nom_manif,date_manif,id_iut) VALUES ("eget","2016-05-14",1);
+INSERT INTO Manifestation (nom_manif,date_manif,id_iut) VALUES ("penatibus","2016-05-12",1);
+INSERT INTO Manifestation (nom_manif,date_manif,id_iut) VALUES ("lectus","2012-11-25",15);
+INSERT INTO Manifestation (nom_manif,date_manif,id_iut) VALUES ("facilisi.","2015-07-21",2);
+INSERT INTO Manifestation (nom_manif,date_manif,id_iut) VALUES ("lacus","2012-11-22",13);
+INSERT INTO Manifestation (nom_manif,date_manif,id_iut) VALUES ("Etiam","2012-11-16",4);
+INSERT INTO Manifestation (nom_manif,date_manif,id_iut) VALUES ("Fusce","2014-09-08",17);
+INSERT INTO Manifestation (nom_manif,date_manif,id_iut) VALUES ("luctus","2014-02-19",2);
+
+create table Etudiant(
+    id_etu int not null auto_increment,
+    nom_etu varchar(25),
+    date_naissance_etu date,
+    sexe_etu boolean,
+    id_iut int,
+    primary key (id_etu),
+    constraint fk_etu_iut foreign key(id_iut) references Iut(id_iut)
+);
+
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Colt","2014-10-01",1,14);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Catherine","2012-12-21",1,8);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Wilma","2014-10-29",1,17);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Patience","2013-10-23",0,4);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Brynn","2013-05-16",0,6);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Echo","2015-04-20",0,19);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Elaine","2013-03-16",1,9);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Jason","2015-12-26",1,9);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Yuri","2013-03-20",0,7);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Arsenio","2013-06-10",0,18);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Kyle","2016-06-16",1,13);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Deborah","2014-04-11",1,10);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Margaret","2013-06-19",1,5);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Jada","2015-08-10",0,5);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Martina","2013-09-12",1,8);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Thane","2016-01-03",1,10);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Scott","2016-06-20",0,7);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Edward","2014-08-25",1,19);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Nelle","2014-01-15",1,20);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Ainsley","2015-11-11",1,8);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Stacey","2013-04-16",0,20);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Kadeem","2016-07-04",1,15);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Yoshio","2015-02-01",0,9);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Charles","2015-01-13",1,18);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Imelda","2013-02-15",0,10);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Robin","2012-10-29",0,8);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Drew","2015-07-31",1,11);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Leilani","2015-10-27",0,4);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Jolie","2016-05-21",1,16);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Jessamine","2013-06-05",1,10);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Serina","2015-03-13",1,15);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Reed","2014-05-24",0,5);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Justin","2015-12-13",0,8);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Vera","2013-10-20",1,20);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Sage","2014-11-27",1,5);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Fay","2014-10-01",1,8);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Nadine","2015-05-01",0,7);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Dahlia","2016-06-09",1,13);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Holly","2013-07-27",0,12);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Cleo","2015-12-29",1,12);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Nehru","2015-09-01",0,9);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Indira","2013-07-29",0,16);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Micah","2016-08-23",1,3);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Amir","2013-07-24",1,14);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Aladdin","2014-01-13",1,13);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Dalton","2012-12-15",1,8);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Lester","2016-01-20",1,9);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Vielka","2013-01-31",1,2);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Kirestin","2014-04-01",0,5);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Buffy","2015-10-04",0,17);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Noble","2015-02-20",0,6);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Burke","2015-10-19",0,10);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Vanna","2012-11-11",0,5);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Aristotle","2013-07-27",0,19);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Ori","2014-02-05",0,9);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Gloria","2014-10-12",0,5);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Phyllis","2013-09-28",0,15);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Ciara","2015-12-15",1,10);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Duncan","2016-04-09",1,13);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Jessamine","2014-05-06",1,20);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Eliana","2015-06-07",0,1);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Kevin","2015-01-31",1,11);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Alvin","2014-01-02",0,14);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Driscoll","2013-05-10",1,18);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Chester","2015-03-15",0,2);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Lydia","2014-12-27",1,11);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Sheila","2015-03-17",0,12);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Lila","2013-07-14",1,12);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Ava","2016-02-09",1,3);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Noel","2016-01-28",0,16);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Nathan","2015-09-26",1,4);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Oliver","2016-05-21",0,14);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Danielle","2014-09-09",0,4);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Thane","2016-05-30",0,14);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Quon","2013-11-25",1,19);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Sigourney","2014-12-30",0,11);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Herman","2013-09-09",0,18);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Zahir","2014-02-13",1,10);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Kyle","2014-12-21",1,7);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Micah","2014-11-12",1,13);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Jakeem","2014-07-13",0,5);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Maisie","2015-05-09",1,9);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Flynn","2015-05-18",0,12);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Jeremy","2013-06-05",0,2);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Caleb","2015-02-01",1,15);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Ashely","2015-10-20",1,1);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Lillith","2014-08-27",0,4);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Joy","2012-10-17",0,18);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Wyatt","2015-02-05",1,14);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Dillon","2014-12-21",0,5);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Tatiana","2014-09-26",1,9);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Cailin","2013-10-20",0,8);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Kiayada","2014-08-03",1,12);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Cairo","2015-01-20",0,14);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Connor","2016-07-28",0,11);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Wylie","2014-04-11",0,5);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Yvette","2015-09-08",0,7);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Byron","2014-09-16",1,9);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Alexandra","2012-11-01",1,3);
+INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Oliver","2014-09-13",1,10);
+
+create table Participe(
+    id_manif int,
+    id_epreuve int,
+    id_etu int,
+    resultat int,
+    primary key( id_manif, id_epreuve, id_etu),
+    constraint fk_participe_manif foreign key(id_manif) references Manifestation(id_manif),
+    constraint fk_participe_epreuve foreign key(id_epreuve) references Epreuve(id_epreuve),
+    constraint fk_participe_etu foreign key(id_etu) references Etudiant(id_etu)
+);
+
+-- La dixième manifestation a battu les records de fréquentation
+-- Les classement de chaque étudiant test est son id
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (6,1,1,1);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (9,1,2,2);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (10,5,3,3);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (8,4,4,4);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (9,3,5,5);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (1,1,6,6);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (10,1,7,7);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (10,1,8,8);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (5,4,9,9);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (10,5,10,10);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (2,2,11,11);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (10,3,12,12);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (10,1,13,13);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (10,5,14,14);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (10,1,15,15);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (2,2,16,16);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (6,5,17,17);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (5,1,18,18);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (10,3,19,19);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (10,2,20,20);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (1,1,21,21);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (10,4,22,22);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (10,5,23,23);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (10,1,24,24);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (2,2,25,25);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (3,4,26,26);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (10,5,27,27);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (4,1,28,28);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (10,1,29,29);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (2,1,30,30);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (5,3,31,31);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (10,3,32,32);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (10,5,33,33);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (10,2,34,34);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (10,2,35,35);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (10,3,36,36);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (4,2,37,37);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (3,1,38,38);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (5,5,39,39);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (4,5,40,40);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (10,2,41,41);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (10,1,42,42);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (4,4,43,43);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (4,1,44,44);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (2,1,45,45);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (10,5,46,46);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (10,3,47,47);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (10,2,48,48);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (2,1,49,49);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (10,5,50,50);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (8,3,51,51);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (8,3,52,52);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (10,3,53,53);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (10,5,54,54);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (8,4,55,55);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (10,5,56,56);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (1,1,57,57);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (10,2,58,58);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (10,1,59,59);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (7,4,60,60);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (9,1,61,61);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (10,2,62,62);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (10,1,63,63);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (10,5,64,64);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (4,2,65,65);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (10,3,66,66);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (10,1,67,67);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (2,2,68,68);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (10,4,69,69);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (4,1,70,70);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (9,5,71,71);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (10,3,72,72);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (4,5,73,73);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (10,1,74,74);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (3,1,75,75);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (10,3,76,76);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (3,3,77,77);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (10,4,78,78);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (10,2,79,79);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (10,5,80,80);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (10,3,81,81);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (9,2,82,82);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (10,3,83,83);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (10,2,84,84);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (5,5,85,85);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (8,4,86,86);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (10,2,87,87);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (3,5,88,88);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (6,4,89,89);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (1,1,90,90);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (10,5,91,91);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (10,5,92,92);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (10,4,93,93);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (2,1,94,94);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (1,1,95,95);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (4,4,96,96);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (10,4,97,97);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (10,3,98,98);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (3,4,99,99);
+INSERT INTO Participe (id_manif,id_epreuve,id_etu,resultat) VALUES (10,2,100,100);
+
+create table Contenu(
+    id_manif int,
+    id_epreuve int,
+    primary key(id_manif, id_epreuve),
+    constraint fk_contenu_manif foreign key(id_manif) references Manifestation(id_manif),
+    constraint fk_contenu_epreuve foreign key(id_epreuve) references Epreuve(id_epreuve)
+);
+
+-- la première manifestation ne contient que du saut en longueur
+INSERT INTO Contenu (id_manif,id_epreuve) VALUES ("1","1");
+-- la seconde manifestation contient du saut en longueur et du vtt
+INSERT INTO Contenu (id_manif,id_epreuve) VALUES ("2","1");
+INSERT INTO Contenu (id_manif,id_epreuve) VALUES ("2","2");
+-- toutes les autres manifestations possèdent les 5 épreuves
+INSERT INTO Contenu (id_manif,id_epreuve) VALUES ("3","1");
+INSERT INTO Contenu (id_manif,id_epreuve) VALUES ("3","2");
+INSERT INTO Contenu (id_manif,id_epreuve) VALUES ("3","3");
+INSERT INTO Contenu (id_manif,id_epreuve) VALUES ("3","4");
+INSERT INTO Contenu (id_manif,id_epreuve) VALUES ("3","5");
+INSERT INTO Contenu (id_manif,id_epreuve) VALUES ("4","1");
+INSERT INTO Contenu (id_manif,id_epreuve) VALUES ("4","2");
+INSERT INTO Contenu (id_manif,id_epreuve) VALUES ("4","3");
+INSERT INTO Contenu (id_manif,id_epreuve) VALUES ("4","4");
+INSERT INTO Contenu (id_manif,id_epreuve) VALUES ("4","5");
+INSERT INTO Contenu (id_manif,id_epreuve) VALUES ("5","1");
+INSERT INTO Contenu (id_manif,id_epreuve) VALUES ("5","2");
+INSERT INTO Contenu (id_manif,id_epreuve) VALUES ("5","3");
+INSERT INTO Contenu (id_manif,id_epreuve) VALUES ("5","4");
+INSERT INTO Contenu (id_manif,id_epreuve) VALUES ("5","5");
+INSERT INTO Contenu (id_manif,id_epreuve) VALUES ("6","1");
+INSERT INTO Contenu (id_manif,id_epreuve) VALUES ("6","2");
+INSERT INTO Contenu (id_manif,id_epreuve) VALUES ("6","3");
+INSERT INTO Contenu (id_manif,id_epreuve) VALUES ("6","4");
+INSERT INTO Contenu (id_manif,id_epreuve) VALUES ("6","5");
+INSERT INTO Contenu (id_manif,id_epreuve) VALUES ("7","1");
+INSERT INTO Contenu (id_manif,id_epreuve) VALUES ("7","2");
+INSERT INTO Contenu (id_manif,id_epreuve) VALUES ("7","3");
+INSERT INTO Contenu (id_manif,id_epreuve) VALUES ("7","4");
+INSERT INTO Contenu (id_manif,id_epreuve) VALUES ("7","5");
+INSERT INTO Contenu (id_manif,id_epreuve) VALUES ("8","1");
+INSERT INTO Contenu (id_manif,id_epreuve) VALUES ("8","2");
+INSERT INTO Contenu (id_manif,id_epreuve) VALUES ("8","3");
+INSERT INTO Contenu (id_manif,id_epreuve) VALUES ("8","4");
+INSERT INTO Contenu (id_manif,id_epreuve) VALUES ("8","5");
+INSERT INTO Contenu (id_manif,id_epreuve) VALUES ("9","1");
+INSERT INTO Contenu (id_manif,id_epreuve) VALUES ("9","2");
+INSERT INTO Contenu (id_manif,id_epreuve) VALUES ("9","3");
+INSERT INTO Contenu (id_manif,id_epreuve) VALUES ("9","4");
+INSERT INTO Contenu (id_manif,id_epreuve) VALUES ("9","5");
+INSERT INTO Contenu (id_manif,id_epreuve) VALUES ("10","1");
+INSERT INTO Contenu (id_manif,id_epreuve) VALUES ("10","2");
+INSERT INTO Contenu (id_manif,id_epreuve) VALUES ("10","3");
+INSERT INTO Contenu (id_manif,id_epreuve) VALUES ("10","4");
+INSERT INTO Contenu (id_manif,id_epreuve) VALUES ("10","5");

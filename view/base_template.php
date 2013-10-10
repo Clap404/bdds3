@@ -4,12 +4,7 @@
         <meta charset="utf-8"/>
         <link rel="stylesheet" type="text/css" href="public/css/bdds3.css">
         <title><?= $title ." | Projet BDD S3" ?></title>
-
-        <script type="text/javascript">
-            function setActiveSection(){
-                
-            }
-        </script>
+        <script type="text/javascript" src="function.js"></script>
 
     </head>
 

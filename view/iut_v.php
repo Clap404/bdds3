@@ -19,7 +19,17 @@
 		$table_iut = get_iut_name();
 	}
 ?>
-	
+	<script type="text/javascript">
+		window.onload = function(){
+
+			function showEditForm(id){	
+				alert("coucou, he suis" + id);
+			};
+
+			bindBySelectorWithAttribute(showEditForm, ".edit", "id");		
+		}
+	</script>
+
 	<table>
 		<thead>
 			<tr>
@@ -51,8 +61,14 @@
 				<td><?= $value[2] ?></td>
 				<td><?= $value[3] ?></td>
 
-				<td><?= '<a href="?p=iut&amp;act=edit&amp;id='.$value[0].'"><img src="public/images/edit.png" class="icon"/></a>'?>
-				<?= '<a href="?p=iut&amp;act=delete&amp;id='.$value[0].'"><img src="public/images/delete.png" class="icon"/></a>'?></td>
+				<td>
+					<!-- href="?p=iut&amp;act=edit&amp;id= " -->
+					<?= '<a class="edit" id="'.$value[0].'"><img src="public/images/edit.png" class="icon"/></a>'?>
+
+					<?= '<a href="?p=iut&amp;act=delete&amp;id='.$value[0].
+						'" class="delete" id="'.$value[0].'"><img src="public/images/delete.png" class="icon"/></a>'?>
+
+				</td>
 			</tr>
 
 		<?php
@@ -63,9 +79,9 @@
 		</tbody>
 	</table>
 <?php
-	if(isset($_GET['act']) && $_GET['act'] === "add") {
+	//if(isset($_GET['act']) && $_GET['act'] === "add") {
 		?>
-		<form id="add" method="post">
+	<!-- 	<form id="add" method="post">
 			<label>Nom de l'iut : </label><input name="name" type="text"/>
 			<br/>
 			<label>Adresse de l'iut : </label><input name="adresse" type="text"/>
@@ -73,8 +89,8 @@
 			<label>Nombre d'étudiant : </label><input name="nbetu" type="text"/>
 			<br/>
 			<input type="submit" value="Ajouter"/>
-		</form>
+		</form> -->
 <?php
-	}
+	//}
 	$content = ob_get_clean();
 

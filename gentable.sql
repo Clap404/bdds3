@@ -19,9 +19,9 @@ create table if not exists Manifestation(
 
 create table if not exists Etudiant(
     id_etu int not null auto_increment,
-    nom_edu varchar(25),
-    date_naissance_edu date,
-    sexe_edu boolean,
+    nom_etu varchar(25),
+    date_naissance_etu date,
+    sexe_etu boolean,
     id_iut int,
     primary key (id_etu),
     constraint fk_etu_iut foreign key(id_iut) references Iut(id_iut)
