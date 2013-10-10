@@ -53,6 +53,7 @@ create table Manifestation(
     id_iut int,
     primary key (id_manif),
     constraint fk_manif_iut foreign key(id_iut) references Iut(id_iut)
+        on update cascade on delete cascade
 );
 
 INSERT INTO Manifestation (nom_manif,date_manif,id_iut) VALUES ("iaculis","2014-11-12",12);
@@ -74,6 +75,7 @@ create table Etudiant(
     id_iut int,
     primary key (id_etu),
     constraint fk_etu_iut foreign key(id_iut) references Iut(id_iut)
+        on update cascade on delete cascade
 );
 
 INSERT INTO Etudiant (nom_etu,date_naissance_etu,sexe_etu,id_iut) VALUES ("Colt","2014-10-01",1,14);
@@ -183,9 +185,12 @@ create table Participe(
     id_etu int,
     resultat int,
     primary key( id_manif, id_epreuve, id_etu),
-    constraint fk_participe_manif foreign key(id_manif) references Manifestation(id_manif),
-    constraint fk_participe_epreuve foreign key(id_epreuve) references Epreuve(id_epreuve),
+    constraint fk_participe_manif foreign key(id_manif) references Manifestation(id_manif)
+        on update cascade on delete cascade,
+    constraint fk_participe_epreuve foreign key(id_epreuve) references Epreuve(id_epreuve)
+        on update cascade on delete cascade,
     constraint fk_participe_etu foreign key(id_etu) references Etudiant(id_etu)
+        on update cascade on delete cascade
 );
 
 -- La dixième manifestation a battu les records de fréquentation
@@ -295,8 +300,10 @@ create table Contenu(
     id_manif int,
     id_epreuve int,
     primary key(id_manif, id_epreuve),
-    constraint fk_contenu_manif foreign key(id_manif) references Manifestation(id_manif),
+    constraint fk_contenu_manif foreign key(id_manif) references Manifestation(id_manif)
+        on update cascade on delete cascade,
     constraint fk_contenu_epreuve foreign key(id_epreuve) references Epreuve(id_epreuve)
+        on update cascade on delete cascade
 );
 
 -- la première manifestation ne contient que du saut en longueur
