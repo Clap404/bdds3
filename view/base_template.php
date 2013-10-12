@@ -16,7 +16,7 @@
         <nav>
             <ul>
                 <li><a href="index.php">Accueil</a></li>
-                <li><a href="#">Manifestations</a></li>
+                <li><a href="?p=manifestations">Manifestations</a></li>
                 <li><a href="?p=iut">IUT</a></li>
                 <li><a href="#">Etudiants</a></li>
                 <li><a href="?p=epreuves">Epreuves</a></li>

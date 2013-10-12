@@ -36,7 +36,7 @@
 				<td><?= $value[0] ?></td>
 				<td><?= $value[1] ?></td>
 
-				<td><?= '<a href="?p=epreuves&amp;act=edit&amp;id='.$value[0].'"><img src="public/images/edit.png" class="icon id="edit"/></a>'?>
+				<td><?= '<a href="?p=epreuves&amp;act=edit&amp;id='.$value[0].'"><img src="public/images/edit.png" class="icon" id="edit"/></a>'?>
 				<?= '<a href="?p=epreuves&amp;act=delete&amp;id='.$value[0].'"><img src="public/images/delete.png" class="icon" id="delete"/></a>'?></td>
 			</tr>
 
