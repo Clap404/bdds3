@@ -31,7 +31,7 @@
 		window.onload = function(){
 
 			function showEditForm(id){	
-				alert("coucou, he suis" + id);
+				alert("coucou, je suis" + id);
 			};
 
 			bindBySelectorWithAttribute(showEditForm, ".edit", "id");		

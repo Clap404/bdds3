@@ -13,8 +13,12 @@
                 require("controller/manifestation.php");
             break;
 
+            case "etudiants":
+                require("controller/etudiant.php");
+            break;
+
             default:
-               echo "<h1>Erreur</h1>";
+               echo "<h1>Error 404 Not Found : La page demandé n'existe pas</h1>";
             break;
         }
     }
