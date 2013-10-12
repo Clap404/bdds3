@@ -46,7 +46,7 @@
 				<form action="?p=manifestations" method="post">
 					<td></td>
 					<td><input name="name" type="text" placeholder="Nom de la manifestation"/></td>
-					<td><input name="date" type="date"/></td>
+					<td><input name="date" type="date" placeholder="aaaa-mm-yy"/></td>
 					<td>
 						<SELECT name="iut">
 							<?php

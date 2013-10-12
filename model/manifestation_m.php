@@ -40,7 +40,7 @@
 
 	function del_manif() {
 		$connexion = db_connect();
-		$req = $connexion->prepare("DELETE FROM Manifestation WHERE id_manif = ?;");
+		$req = $connexion->prepare("DELETE FROM Manifestation WHERE id_manif=?;");
 		$req->execute(array($_GET['id']));
 		$req->closeCursor();
 	}
