@@ -20,6 +20,7 @@
                 <li><a href="?p=iut">IUT</a></li>
                 <li><a href="?p=etudiants">Etudiants</a></li>
                 <li><a href="?p=epreuves">Epreuves</a></li>
+                <li><a href="?p=rqtd">Requête TD</a></li>
             </ul>
         </nav>
 
