@@ -30,6 +30,12 @@
 	$list = liste_deroulante();
 
 ?>
+	<script type="text/javascript">
+		window.onload = function(){
+			document.querySelector("tr#edit").style = "display : none;"
+			bindActionBySelector(showEditForm, ".edit");	
+		}
+	</script>
 
 	<table>
 		<thead>
@@ -42,7 +48,24 @@
 			</tr>
 		</thead>
 		<tbody>
-			<tr>
+			<tr id="edit">
+				<form action="?p=manifestations" method="post">
+					<td><input name="id" type="hidden"/></td>
+					<td><input name="name" type="text" /></td>
+					<td><input name="date" type="date" /></td>
+					<td>
+						<SELECT name="iut">
+							<?php
+								foreach ($list as $key => $value) {
+									echo '<option value="'.$value[0].'">'.$value[1].'</option>';
+								}
+							?>
+						</SELECT>
+					</td>
+					<td><input type="submit" value="Modifier"/></td>
+				</form>
+			</tr>
+			<tr id="add">
 				<form action="?p=manifestations" method="post">
 					<td></td>
 					<td><input name="name" type="text" placeholder="Nom de la manifestation"/></td>
@@ -64,14 +87,17 @@
 	foreach ($table_manif as $key => $value) {
 		?>
 
-			<tr>
+			<tr id=<?= '"x'.$value[0].'"' ?>>
 				<td><?= $value[0] ?></td>
 				<td><?= $value[1] ?></td>
 				<td><?= $value[2] ?></td>
 				<td><?= $value[3] ?></td>
 
-				<td><?= '<a href="?p=manifestations&amp;act=edit&amp;id='.$value[0].'"><img src="public/images/edit.png" class="icon" id="edit"/></a>'?>
-				<?= '<a href="?p=manifestations&amp;act=delete&amp;id='.$value[0].'"><img src="public/images/delete.png" class="icon" id="delete"/></a>'?></td>
+				<td>
+					<a class="edit" id=<?= '"x'.$value[0].'"' ?>><img src="public/images/edit.png" class="icon"/></a>
+					<a href=<?= '"?p=manifestations&amp;act=delete&amp;id='.$value[0].'"'
+						?> class="delete" id=<?= '"x'.$value[0].'"' ?>><img src="public/images/delete.png" class="icon"/></a>
+				</td>
 			</tr>
 
 		<?php

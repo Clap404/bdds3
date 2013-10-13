@@ -21,8 +21,8 @@
 
 	function modif_epreuve() {
 		$connexion = db_connect();
-		$req = $connexion->prepare("UPDATE Epreuve SET nom_epreuve=? WHERE id_epreuve=id_epreuve;");
-		$req->execute();
+		$req = $connexion->prepare("UPDATE Epreuve SET nom_epreuve=? WHERE id_epreuve=?;");
+		$req->execute(array($_POST['name'], $_POST['id']));
 		$req->closeCursor();
 	}
 

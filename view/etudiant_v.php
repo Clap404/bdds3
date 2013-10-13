@@ -32,7 +32,12 @@
 
 	$list = liste_deroulante();
 ?>
-
+	<script type="text/javascript">
+		window.onload = function(){
+			document.querySelector("tr#edit").style = "display : none;"
+			bindActionBySelector(showEditForm, ".edit");	
+		}
+	</script>
 	<table>
 		<thead>
 			<tr>
@@ -45,11 +50,34 @@
 			</tr>
 		</thead>
 		<tbody>
-			<tr>
+			<tr id="edit">
+				<form action="?p=etudiants" method="post">
+					<td><input name="id" type="hidden"/></td>
+					<td><input name="name" type="text" /></td>
+					<td><input name="date" type="date" /></td>
+					<td>
+						<select name="sexe">
+							<option value="0">Homme</option>
+							<option value="1">Femme</option>
+						</select>
+					</td>
+					<td>
+						<select name="iut">
+							<?php 
+								foreach ($list as $key => $value) {
+									echo '<option value = "'.$value[0].'">'.$value[1].'</option>';
+								}
+							?>
+						</select>
+					</td>
+					<td><input type="submit" value="Ajouter"/></td>
+				</form>
+			</tr>
+			<tr id="add">
 				<form action="?p=etudiants" method="post">
 					<td></td>
 					<td><input name="name" type="text" placeholder="Nom de l'étudiant"/></td>
-					<td><input name="date" type="date" placeholder="aaaa-mm-jj"></td>
+					<td><input name="date" type="date" placeholder="aaaa-mm-jj"/></td>
 					<td>
 						<select name="sexe">
 							<option value="0">Homme</option>
@@ -73,16 +101,18 @@
 	foreach ($table_etu as $key => $value) {
 		?>
 
-			<tr>
+			<tr id=<?= '"x'.$value[0].'"' ?>>
 				<td><?= $value[0] ?></td>
 				<td><?= $value[1] ?></td>
 				<td><?= $value[2] ?></td>
 				<td><?= ($value[3] == "1" ? "Femme" : "Homme");?></td>
 				<td><?= $value[4] ?></td>
 
-				<td><?= '<a href="?p=etudiants&amp;act=edit&amp;id='.$value[0].'"><img src="public/images/edit.png" class="icon" id="edit"/></a>'?>
-				<?= '<a href="?p=etudiants&amp;act=delete&amp;id='.$value[0].'"><img src="public/images/delete.png" class="icon" id="delete"/></a>'?></td>
-			</tr>
+				<td>
+					<a class="edit" id=<?= '"x'.$value[0].'"' ?>><img src="public/images/edit.png" class="icon"/></a>
+					<a href=<?= '"?p=etudiants&amp;act=delete&amp;id='.$value[0].'"'
+						?> class="delete" id=<?= '"x'.$value[0].'"' ?>><img src="public/images/delete.png" class="icon"/></a>
+				</td>
 
 		<?php
 	}

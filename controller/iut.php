@@ -20,7 +20,7 @@
 		if(empty($_POST['name']) || empty($_POST['address']) || empty($_POST['nb_etu'])) {
 		}
 		else {
-		add_iut();
+			add_iut();
 		}
 	}
 

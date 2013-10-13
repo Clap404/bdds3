@@ -46,7 +46,7 @@
 		</thead>
 		<tbody>
 			<tr id="edit">
-				<form action="?p=iut" method="post" id="edit">
+				<form action="?p=iut" method="post">
 					<td><input name="id" type="hidden"/></td>
 					<td><input name="name" type="text" /></td>
 					<td><input name="address" type="text" /></td>
@@ -55,7 +55,7 @@
 				</form>
 			</tr>
 			<tr id="add">
-				<form action="?p=iut" method="post" id="add">
+				<form action="?p=iut" method="post">
 					<td></td>
 					<td><input name="name" type="text" placeholder="Nom de l'iut"/></td>
 					<td><input name="address" type="text" placeholder="Adresse de l'iut"/></td>
@@ -74,7 +74,6 @@
 				<td><?= $value[3] ?></td>
 
 				<td>
-					<!-- href="?p=iut&amp;act=edit&amp;id= " -->
 					<a class="edit" id=<?= '"x'.$value[0].'"' ?>><img src="public/images/edit.png" class="icon"/></a>
 					<a href=<?= '"?p=iut&amp;act=delete&amp;id='.$value[0].'"'
 						?> class="delete" id=<?= '"x'.$value[0].'"' ?>><img src="public/images/delete.png" class="icon"/></a>

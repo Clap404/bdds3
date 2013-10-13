@@ -9,7 +9,14 @@
 			del_epreuve();
 		}
 	}
-	if(isset($_POST['name'])) {
+	if(isset($_POST['id'], $_POST['name'])) {
+		if(empty($_POST['name']) || empty($_POST['id'])){
+		}
+		else {
+			modif_epreuve();
+		}
+	}
+	elseif(isset($_POST['name'])) {
 		if(empty($_POST['name'])) {
 		}
 		else {
