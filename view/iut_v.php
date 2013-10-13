@@ -30,11 +30,8 @@
 	<script type="text/javascript">
 		window.onload = function(){
 
-			function showEditForm(id){	
-				alert("coucou, he suis" + id);
-			};
-
-			bindBySelectorWithAttribute(showEditForm, ".edit", "id");		
+			document.querySelector("tr#edit").style = "display : none;"
+			bindActionBySelector(showEditForm, ".edit");	
 		}
 	</script>
 
@@ -49,8 +46,17 @@
 			</tr>
 		</thead>
 		<tbody>
-			<tr>
-				<form action="?p=iut" method="post">
+			<tr id="edit">
+				<form action="?p=iut" method="post" id="edit">
+					<td><input name="id" type="hidden"/></td>
+					<td><input name="name" type="text" /></td>
+					<td><input name="address" type="text" /></td>
+					<td><input name="nb_etu" type="text" /></td>
+					<td><input type="submit" value="Modifier" /></td>
+				</form>
+			</tr>
+			<tr id="add">
+				<form action="?p=iut" method="post" id="add">
 					<td></td>
 					<td><input name="name" type="text" placeholder="Nom de l'iut"/></td>
 					<td><input name="address" type="text" placeholder="Adresse de l'iut"/></td>
@@ -58,12 +64,11 @@
 					<td><input type="submit" value="Ajouter"/></td>
 				</form>
 			</tr>
-			
 <?php
 	foreach ($table_iut as $key => $value) {
 		?>
 
-			<tr>
+			<tr id=<?= '"x'.$value[0].'"' ?>>
 				<td><?= $value[0] ?></td>
 				<td><?= $value[1] ?></td>
 				<td><?= $value[2] ?></td>
@@ -71,18 +76,15 @@
 
 				<td>
 					<!-- href="?p=iut&amp;act=edit&amp;id= " -->
-					<?= '<a class="edit" id="'.$value[0].'"><img src="public/images/edit.png" class="icon"/></a>'?>
-
-					<?= '<a href="?p=iut&amp;act=delete&amp;id='.$value[0].
-						'" class="delete" id="'.$value[0].'"><img src="public/images/delete.png" class="icon"/></a>'?>
+					<a class="edit" id=<?= '"x'.$value[0].'"' ?>><img src="public/images/edit.png" class="icon"/></a>
+					<a href=<?= '"?p=iut&amp;act=delete&amp;id='.$value[0].'"'
+						?> class="delete" id=<?= '"x'.$value[0].'"' ?>><img src="public/images/delete.png" class="icon"/></a>
 
 				</td>
 			</tr>
 
 		<?php
 	}
-
-
 ?>
 		</tbody>
 	</table>

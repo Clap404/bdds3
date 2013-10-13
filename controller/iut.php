@@ -9,7 +9,14 @@
 			del_iut();	
 		}
 	}
-	if(isset($_POST['name'], $_POST['address'], $_POST['nb_etu'])) {
+	if(isset($_POST['id'], $_POST['name'] ,$_POST['address'], $_POST['nb_etu'])) {
+		if(empty($_POST['id']) || empty($_POST['name']) || empty($_POST['address']) || empty($_POST['nb_etu'])) {
+		}
+		else {
+		modif_iut();
+		}
+	}
+	elseif(isset($_POST['name'], $_POST['address'], $_POST['nb_etu'])) {
 		if(empty($_POST['name']) || empty($_POST['address']) || empty($_POST['nb_etu'])) {
 		}
 		else {
