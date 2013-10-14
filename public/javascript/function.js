@@ -58,7 +58,6 @@ function showEditForm(){
     
     for (var j = 0 ; j < selectFields.length ; j++) {
         var selectDefaultValue = cells[i].getAttribute("value");
-        console.log(selectDefaultValue);
         
         document.querySelector("tr#edit select option[value='"+selectDefaultValue+"']").setAttribute("selected","selected" );
         i++;
