@@ -32,8 +32,8 @@
 ?>
 	<script type="text/javascript">
 		window.onload = function(){
-			document.querySelector("tr#edit").style.display = "none";
-			bindActionBySelector(showEditForm, ".edit");	
+			document.queryselector("tr#edit").style.display = "none";
+			bindActionByselector(showEditForm, ".edit");	
 		}
 	</script>
 
@@ -54,13 +54,13 @@
 					<td><input name="name" type="text" /></td>
 					<td><input name="date" type="date" /></td>
 					<td>
-						<SELECT name="iut">
+						<select name="iut">
 							<?php
 								foreach ($list as $key => $value) {
 									echo '<option value="'.$value[0].'">'.$value[1].'</option>';
 								}
 							?>
-						</SELECT>
+						</select>
 					</td>
 					<td><input type="submit" value="Modifier"/></td>
 				</form>
@@ -71,13 +71,13 @@
 					<td><input name="name" type="text" placeholder="Nom de la manifestation"/></td>
 					<td><input name="date" type="date" placeholder="aaaa-mm-yy"/></td>
 					<td>
-						<SELECT name="iut">
+						<select name="iut">
 							<?php
 								foreach ($list as $key => $value) {
 									echo '<option value="'.$value[0].'">'.$value[1].'</option>';
 								}
 							?>
-						</SELECT>
+						</select>
 					</td>
 					<td><input type="submit" value="Ajouter"/></td>
 				</form>

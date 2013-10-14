@@ -9,13 +9,17 @@
 			del_etudiant();
 		}
 	}
-	if(isset($_POST['name'], $_POST['date'], $_POST['sexe'], $_POST['iut'])) {
-		echo '<h2>DEBUG : Je suis dans la 1ere condition</h2>';
-		if(empty($_POST['name']) || empty($_POST['date']) || empty($_POST['iut'])) {
-			echo "<h2>DEBUG : Y'a un truc de vide</h2>";
+	if(isset($_POST['id'], $_POST['name'], $_POST['date'], $_POST['sexe'], $_POST['iut'])) {
+		if(empty($_POST['id']) || empty($_POST['name']) || empty($_POST['date']) || empty($_POST['iut'])) {
 		}
 		else {
-			echo '<h2>DEBUG : Ca devrait marcher</h2>';
+			modif_etudiant();
+		}
+	}	
+	elseif(isset($_POST['name'], $_POST['date'], $_POST['sexe'], $_POST['iut'])) {
+		if(empty($_POST['name']) || empty($_POST['date']) || empty($_POST['iut'])) {
+		}
+		else {
 			add_etudiant();
 		}
 	}	

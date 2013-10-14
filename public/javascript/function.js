@@ -40,11 +40,30 @@ function showEditForm(){
     var line = document.querySelector("tr#"+lineId);
     var cells = document.querySelectorAll("tr#"+lineId+" td");
     var form = document.querySelector("tr#edit");
+    
     var formFields = document.querySelectorAll("tr#edit input");
 
-    for (var i = 0 ; i < formFields.length -1; i++) {
+    var i;
+
+    for (i = 0 ; i < formFields.length -1; i++) {
         formFields[i].value = cells[i].innerHTML ;
     };
+
+    var selectFields = document.querySelectorAll("tr#edit select");
+
+    var optionFields = document.querySelectorAll("tr#edit select option[selected='selected']");
+    for (var k = optionFields.length - 1; k >= 0; k--) {
+        optionFields[k].removeAttribute("selected");
+    };
+    
+    for (var j = 0 ; j < selectFields.length ; j++) {
+        var selectDefaultValue = cells[i].getAttribute("value");
+        console.log(selectDefaultValue);
+        
+        document.querySelector("tr#edit select option[value='"+selectDefaultValue+"']").setAttribute("selected","selected" );
+        i++;
+    };
+
     line.parentNode.insertBefore(form,line);
 
     form.style.display = "table-row";

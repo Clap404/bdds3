@@ -65,12 +65,13 @@
 						<select name="iut">
 							<?php 
 								foreach ($list as $key => $value) {
-									echo '<option value = "'.$value[0].'">'.$value[1].'</option>';
+									echo '<option value="'.$value[0].'">'.$value[1].'</option>
+									';
 								}
 							?>
 						</select>
 					</td>
-					<td><input type="submit" value="Ajouter"/></td>
+					<td><input type="submit" value="Modifier"/></td>
 				</form>
 			</tr>
 			<tr id="add">
@@ -105,8 +106,8 @@
 				<td><?= $value[0] ?></td>
 				<td><?= $value[1] ?></td>
 				<td><?= $value[2] ?></td>
-				<td><?= ($value[3] == "1" ? "Femme" : "Homme");?></td>
-				<td><?= $value[4] ?></td>
+				<td value=<?= '"'.$value[3].'"' ?> ><?= ($value[3] == "1" ? "Femme" : "Homme");?></td>
+				<td value=<?= '"'.$value[5].'"' ?> ><?= $value[4] ?></td>
 
 				<td>
 					<a class="edit" id=<?= '"x'.$value[0].'"' ?>><img src="public/images/edit.png" class="icon"/></a>
