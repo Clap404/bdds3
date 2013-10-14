@@ -32,7 +32,7 @@
 ?>
 	<script type="text/javascript">
 		window.onload = function(){
-			document.querySelector("tr#edit").style = "display : none;"
+			document.querySelector("tr#edit").style.display = "none";
 			bindActionBySelector(showEditForm, ".edit");	
 		}
 	</script>

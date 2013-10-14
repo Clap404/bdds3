@@ -47,8 +47,8 @@ function showEditForm(){
     };
     line.parentNode.insertBefore(form,line);
 
-    form.style = "display : table-row;";
-    line.style = "display : none";
+    form.style.display = "table-row";
+    line.style.display = "none";
     document.lastLine = line;
 };
 
@@ -56,5 +56,5 @@ function restoreLine(){
     if(typeof(document.lastLine) === "undefined"){
         return undefined;
     };
-    document.lastLine.style = "display : table-row";
+    document.lastLine.style.display = "table-row";
 }
