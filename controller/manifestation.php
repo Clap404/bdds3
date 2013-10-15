@@ -9,7 +9,14 @@
 			del_manif();
 		}
 	}
-	if(isset($_POST['name'], $_POST['date'], $_POST['iut'])) {
+	if(isset($_POST['id'], $_POST['name'], $_POST['date'], $_POST['iut'])) {
+		if(empty($_POST['id']) || empty($_POST['name']) || empty($_POST['date']) || empty($_POST['iut'])) {
+		}
+		else {
+			modif_manif();
+		}
+	}
+	elseif(isset($_POST['name'], $_POST['date'], $_POST['iut'])) {
 		if(empty($_POST['name']) || empty($_POST['date']) || empty($_POST['iut'])) {
 		}
 		else {

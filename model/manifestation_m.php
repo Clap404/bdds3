@@ -52,6 +52,13 @@
 		$req->closeCursor();	
 	}
 
+	function modif_manif() {
+		$connexion = db_connect();
+		$req = $connexion->prepare("UPDATE Manifestation SET nom_manif=?, date_manif=?, id_iut=? WHERE id_manif=? ");
+		$req->execute(array($_POST['name'], $_POST['date'], $_POST['iut'], $_POST['id']));
+		$req->closeCursor();	
+	}
+
 	function liste_deroulante() {
 		$connexion = db_connect();
 		$req = $connexion->query("SELECT id_iut, nom_iut FROM Iut;");
