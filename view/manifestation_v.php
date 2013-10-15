@@ -32,8 +32,8 @@
 ?>
 	<script type="text/javascript">
 		window.onload = function(){
-			document.queryselector("tr#edit").style.display = "none";
-			bindActionByselector(showEditForm, ".edit");	
+			document.querySelector("tr#edit").style.display = "none";
+			bindActionBySelector(showEditForm, ".edit");	
 		}
 	</script>
 
@@ -60,6 +60,7 @@
 									echo '<option value="'.$value[0].'">'.$value[1].'</option>';
 								}
 							?>
+
 						</select>
 					</td>
 					<td><input type="submit" value="Modifier"/></td>
@@ -77,6 +78,7 @@
 									echo '<option value="'.$value[0].'">'.$value[1].'</option>';
 								}
 							?>
+
 						</select>
 					</td>
 					<td><input type="submit" value="Ajouter"/></td>
@@ -91,7 +93,7 @@
 				<td><?= $value[0] ?></td>
 				<td><?= $value[1] ?></td>
 				<td><?= $value[2] ?></td>
-				<td><?= $value[3] ?></td>
+				<td value=<?= '"'.$value[4].'"' ?> ><?= $value[3] ?></td>
 
 				<td>
 					<a class="edit" id=<?= '"x'.$value[0].'"' ?>><img src="public/images/edit.png" class="icon"/></a>

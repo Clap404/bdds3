@@ -33,34 +33,44 @@ function bindActionBySelector(action, selector){
     };
 }
 
+function restoreLine(){
+    if(typeof(document.lastLine) !== "undefined"){
+        document.lastLine.style.display = "table-row";
+    };
+}
+
+function resetOptions(){
+    var optionFields = document.querySelectorAll("tr#edit option[selected='selected']");
+    for (var k = optionFields.length - 1; k >= 0; k--) {
+        optionFields[k].removeAttribute("selected");
+    };
+}
+
 function showEditForm(){
     restoreLine();
+    resetOptions();
 
     var lineId = this.getAttribute("id");
     var line = document.querySelector("tr#"+lineId);
     var cells = document.querySelectorAll("tr#"+lineId+" td");
     var form = document.querySelector("tr#edit");
     
-    var formFields = document.querySelectorAll("tr#edit input");
-
-    var i;
-
-    for (i = 0 ; i < formFields.length -1; i++) {
-        formFields[i].value = cells[i].innerHTML ;
-    };
-
+    var formFields = document.querySelectorAll("tr#edit input, tr#edit select");
     var selectFields = document.querySelectorAll("tr#edit select");
 
-    var optionFields = document.querySelectorAll("tr#edit select option[selected='selected']");
-    for (var k = optionFields.length - 1; k >= 0; k--) {
-        optionFields[k].removeAttribute("selected");
-    };
-    
-    for (var j = 0 ; j < selectFields.length ; j++) {
-        var selectDefaultValue = cells[i].getAttribute("value");
+    var currentSelect = 0;
+
+    for (var i = 0 ; i < formFields.length -1; i++) {
+        if ( formFields[i].tagName === "INPUT") {
+            formFields[i].value = cells[i].innerHTML ;
         
-        document.querySelector("tr#edit select option[value='"+selectDefaultValue+"']").setAttribute("selected","selected" );
-        i++;
+        } else {
+            var selectDefaultValue = cells[i].getAttribute("value");
+            console.log(selectDefaultValue, i);
+            var defaultOption = selectFields[currentSelect].querySelector("option[value='"+selectDefaultValue+"']");
+            defaultOption.setAttribute("selected","selected" );
+            currentSelect ++;
+        }
     };
 
     line.parentNode.insertBefore(form,line);
@@ -69,10 +79,3 @@ function showEditForm(){
     line.style.display = "none";
     document.lastLine = line;
 };
-
-function restoreLine(){
-    if(typeof(document.lastLine) === "undefined"){
-        return undefined;
-    };
-    document.lastLine.style.display = "table-row";
-}

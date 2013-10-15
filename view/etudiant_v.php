@@ -65,10 +65,10 @@
 						<select name="iut">
 							<?php 
 								foreach ($list as $key => $value) {
-									echo '<option value="'.$value[0].'">'.$value[1].'</option>
-									';
+									echo '<option value="'.$value[0].'">'.$value[1].'</option>';
 								}
 							?>
+							
 						</select>
 					</td>
 					<td><input type="submit" value="Modifier"/></td>
@@ -92,6 +92,7 @@
 									echo '<option value = "'.$value[0].'">'.$value[1].'</option>';
 								}
 							?>
+
 						</select>
 					</td>
 					<td><input type="submit" value="Ajouter"/></td>
