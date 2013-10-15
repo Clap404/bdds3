@@ -17,8 +17,8 @@
                 require("controller/etudiant.php");
             break;
 
-            case "rqtd":
-                require("controller/rqtd.php");
+            case "lstEpreuve":
+                require("controller/lstEpreuve.php");
             break;
 
             default:
