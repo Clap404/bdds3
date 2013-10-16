@@ -29,7 +29,7 @@
         <footer>
             <p>
                 Réalisé par Benoît Houdayer et François-Xavier Béligat<br/>
-                IUT Belfort Montbeliard<br/>
+                IUT Belfort Montbéliard<br/>
                 2013 - 2014
             </p>
         </footer>
