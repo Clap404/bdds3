@@ -125,3 +125,11 @@ table {
 footer {
 	text-align: center;
 }
+
+.previous {
+    margin-bottom: 20px;
+}
+
+.previous a {
+    color: white;
+}

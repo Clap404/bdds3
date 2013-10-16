@@ -3,6 +3,11 @@
 
 	$table_contenu = get_epreuves_manif();
 ?>
+	<div class="previous">
+			<a href="?p=manifestations">Manifestations</a>
+		<br />
+	</div>
+
 	<table>
 		<thead>
 			<tr>
