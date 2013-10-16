@@ -25,3 +25,10 @@
 		$req->closeCursor();
 		return $data;
 	}
+
+	function del_etu_epreuve() {
+		$connexion = db_connect();
+		$req = $connexion->prepare("DELETE FROM Participe WHERE id_manif = ? AND id_epreuve = ? AND id_etu = ?;");
+		$req->execute(array($_GET['idManif'], $_GET['idEpreuve'], $_GET['id']));
+		$req->closeCursor();	
+	}
