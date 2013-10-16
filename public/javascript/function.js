@@ -46,6 +46,11 @@ function resetOptions(){
     };
 }
 
+function convertDate(jjmmaaaa){
+    var tmp = jjmmaaaa.split("/");
+    return tmp[2]+"-"+tmp[1]+"-"+tmp[0];
+}
+
 function showEditForm(){
     restoreLine();
     resetOptions();
@@ -62,11 +67,14 @@ function showEditForm(){
 
     for (var i = 0 ; i < formFields.length -1; i++) {
         if ( formFields[i].tagName === "INPUT") {
-            formFields[i].value = cells[i].innerHTML ;
+            if (formFields[i].getAttribute("type") === "date") {
+                formFields[i].value = convertDate(cells[i].innerHTML) ;
+            } else {
+                formFields[i].value = cells[i].innerHTML ;
+            }
         
         } else {
             var selectDefaultValue = cells[i].getAttribute("value");
-            console.log(selectDefaultValue, i);
             var defaultOption = selectFields[currentSelect].querySelector("option[value='"+selectDefaultValue+"']");
             defaultOption.setAttribute("selected","selected" );
             currentSelect ++;

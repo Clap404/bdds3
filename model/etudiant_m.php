@@ -3,10 +3,10 @@
 	function get_etudiants_name($desc) {
 		$connexion = db_connect();
 		if($desc) {
-			$req = $connexion->query("SELECT E.id_etu, E.nom_etu, DATE_FORMAT(E.date_naissance_etu,'%d/%m/%y'), E.sexe_etu, I.nom_iut, E.id_iut FROM Etudiant E, Iut I WHERE E.id_iut=I.id_iut ORDER BY E.nom_etu DESC;");
+			$req = $connexion->query("SELECT E.id_etu, E.nom_etu, DATE_FORMAT(E.date_naissance_etu,'%d/%m/%Y'), E.sexe_etu, I.nom_iut, E.id_iut FROM Etudiant E, Iut I WHERE E.id_iut=I.id_iut ORDER BY E.nom_etu DESC;");
 		}
 		else {
-			$req = $connexion->query("SELECT E.id_etu, E.nom_etu, DATE_FORMAT(E.date_naissance_etu,'%d/%m/%y'), E.sexe_etu, I.nom_iut, E.id_iut FROM Etudiant E, Iut I WHERE E.id_iut=I.id_iut ORDER BY E.nom_etu;");
+			$req = $connexion->query("SELECT E.id_etu, E.nom_etu, DATE_FORMAT(E.date_naissance_etu,'%d/%m/%Y'), E.sexe_etu, I.nom_iut, E.id_iut FROM Etudiant E, Iut I WHERE E.id_iut=I.id_iut ORDER BY E.nom_etu;");
 		}
 		$data = $req->fetchAll();
 		$req->closeCursor();
@@ -17,10 +17,10 @@
 	function get_etudiants_date($desc) {
 		$connexion = db_connect();
 		if($desc) {
-			$req = $connexion->query("SELECT E.id_etu, E.nom_etu, DATE_FORMAT(E.date_naissance_etu,'%d/%m/%y'), E.sexe_etu, I.nom_iut, E.id_iut FROM Etudiant E, Iut I WHERE E.id_iut=I.id_iut ORDER BY E.date_naissance_etu DESC;");
+			$req = $connexion->query("SELECT E.id_etu, E.nom_etu, DATE_FORMAT(E.date_naissance_etu,'%d/%m/%Y'), E.sexe_etu, I.nom_iut, E.id_iut FROM Etudiant E, Iut I WHERE E.id_iut=I.id_iut ORDER BY E.date_naissance_etu DESC;");
 		}
 		else {
-			$req = $connexion->query("SELECT E.id_etu, E.nom_etu, DATE_FORMAT(E.date_naissance_etu,'%d/%m/%y'), E.sexe_etu, I.nom_iut, E.id_iut FROM Etudiant E, Iut I WHERE E.id_iut=I.id_iut ORDER BY E.date_naissance_etu;");
+			$req = $connexion->query("SELECT E.id_etu, E.nom_etu, DATE_FORMAT(E.date_naissance_etu,'%d/%m/%Y'), E.sexe_etu, I.nom_iut, E.id_iut FROM Etudiant E, Iut I WHERE E.id_iut=I.id_iut ORDER BY E.date_naissance_etu;");
 		}
 		$data = $req->fetchAll();
 		$req->closeCursor();
@@ -31,10 +31,10 @@
 	function get_etudiants_sexe($desc) {
 		$connexion = db_connect();
 		if($desc) {
-			$req = $connexion->query("SELECT E.id_etu, E.nom_etu, DATE_FORMAT(E.date_naissance_etu,'%d/%m/%y'), E.sexe_etu, I.nom_iut, E.id_iut FROM Etudiant E, Iut I WHERE E.id_iut=I.id_iut ORDER BY E.sexe_etu DESC;");
+			$req = $connexion->query("SELECT E.id_etu, E.nom_etu, DATE_FORMAT(E.date_naissance_etu,'%d/%m/%Y'), E.sexe_etu, I.nom_iut, E.id_iut FROM Etudiant E, Iut I WHERE E.id_iut=I.id_iut ORDER BY E.sexe_etu DESC;");
 		}
 		else {
-			$req = $connexion->query("SELECT E.id_etu, E.nom_etu, DATE_FORMAT(E.date_naissance_etu,'%d/%m/%y'), E.sexe_etu, I.nom_iut, E.id_iut FROM Etudiant E, Iut I WHERE E.id_iut=I.id_iut ORDER BY E.sexe_etu;");
+			$req = $connexion->query("SELECT E.id_etu, E.nom_etu, DATE_FORMAT(E.date_naissance_etu,'%d/%m/%Y'), E.sexe_etu, I.nom_iut, E.id_iut FROM Etudiant E, Iut I WHERE E.id_iut=I.id_iut ORDER BY E.sexe_etu;");
 		}
 		$data = $req->fetchAll();
 		$req->closeCursor();
@@ -45,10 +45,10 @@
 	function get_etudiants_iut($desc) {
 		$connexion = db_connect();
 		if($desc) {
-			$req = $connexion->query("SELECT E.id_etu, E.nom_etu, DATE_FORMAT(E.date_naissance_etu,'%d/%m/%y'), E.sexe_etu, I.nom_iut, E.id_iut FROM Etudiant E, Iut I WHERE E.id_iut=I.id_iut ORDER BY I.nom_iut DESC;");
+			$req = $connexion->query("SELECT E.id_etu, E.nom_etu, DATE_FORMAT(E.date_naissance_etu,'%d/%m/%Y'), E.sexe_etu, I.nom_iut, E.id_iut FROM Etudiant E, Iut I WHERE E.id_iut=I.id_iut ORDER BY I.nom_iut DESC;");
 		}
 		else {
-			$req = $connexion->query("SELECT E.id_etu, E.nom_etu, DATE_FORMAT(E.date_naissance_etu,'%d/%m/%y'), E.sexe_etu, I.nom_iut, E.id_iut FROM Etudiant E, Iut I WHERE E.id_iut=I.id_iut ORDER BY I.nom_iut;");
+			$req = $connexion->query("SELECT E.id_etu, E.nom_etu, DATE_FORMAT(E.date_naissance_etu,'%d/%m/%Y'), E.sexe_etu, I.nom_iut, E.id_iut FROM Etudiant E, Iut I WHERE E.id_iut=I.id_iut ORDER BY I.nom_iut;");
 		}
 		$data = $req->fetchAll();
 		$req->closeCursor();
