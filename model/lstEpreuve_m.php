@@ -16,3 +16,10 @@
 		$req->closeCursor();
 		return $data;
 	}
+
+	function del_epreuve_manif() {
+		$connexion = db_connect();
+		$req = $connexion->prepare("DELETE FROM Contenu WHERE id_manif = ? AND id_epreuve = ?;");
+		$req->execute(array($_GET['idManif'], $_GET['id']));
+		$req->closeCursor();
+	}
