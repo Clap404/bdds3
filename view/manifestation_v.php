@@ -99,6 +99,7 @@
 					<a class="edit" id=<?= '"x'.$value[0].'"' ?>><img src="public/images/edit.png" class="icon"/></a>
 					<a href=<?= '"?p=manifestations&amp;act=delete&amp;id='.$value[0].'"'
 						?> class="delete" id=<?= '"x'.$value[0].'"' ?>><img src="public/images/delete.png" class="icon"/></a>
+					<a title="Afficher la liste des épreuves" href=<?='"?p=lstEpreuve&amp;idManif='.$value[0].'"'?>><img src="public/images/runner.png" class="icon"/></a>
 				</td>
 			</tr>
 
