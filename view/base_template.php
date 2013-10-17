@@ -32,6 +32,9 @@
                 IUT Belfort Montbéliard<br/>
                 2013 - 2014
             </p>
+            <script type="text/javascript">
+                underlineCurrent();
+            </script>
         </footer>
     </body>
 </html>

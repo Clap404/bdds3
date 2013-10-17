@@ -26,6 +26,29 @@ check.string = function(testValue, showAlets){
         return true;
 }
 
+function getUrlVars(){
+    var couples = document.URL.split(/[?&\/]/);
+    var vars = {};
+    for (var i = couples.length - 1; i >= 0; i--) {
+        if(couples[i].contains("=")){
+            var namedata = couples[i].split("=");
+            vars[namedata[0]] = namedata[1];
+        }
+    };
+    return vars;
+}
+
+function underlineCurrent(){
+    var p = getUrlVars().p;
+    (p.contains("lst")) ? p = "manifestations" : undefined;
+    
+    if(typeof(p) !== "undefined"){
+        document.querySelector("nav li a[href='?p="+p+"']").setAttribute("class", "active");
+    } else {
+        document.querySelector("nav li a[href='index.php']").setAttribute("class", "active");
+    }
+}
+
 function bindActionBySelector(action, selector){
     elements = document.querySelectorAll(selector);
     for (var i = elements.length - 1; i >= 0; i--) {
