@@ -4,7 +4,7 @@
 	require("model/lstEtu_m.php");
 
 	$name_manif = get_name_manif($_GET['idManif']);
-	$name_epreuve = get_name_epreuve($_GET['idManif']);
+	$name_epreuve = get_name_epreuve($_GET['idEpreuve']);
 	$title = "Participants en ".$name_epreuve[0]." à ".$name_manif[0];
 
 	if(isset($_GET['idManif'], $_GET['idEpreuve'], $_GET['act'], $_GET['id']))
