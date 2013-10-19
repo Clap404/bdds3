@@ -2,6 +2,7 @@
 	ob_start();
 
 	$table_participe = get_etus_epreuve();
+	$liste_etudiants = liste_deroulante_etudiants();
 
 ?>
 	<script type="text/javascript">
@@ -83,11 +84,21 @@
 				<form action=<?= '"?p=lstEtu&amp;idManif='.$_GET['idManif'].'&amp;idEpreuve='.$_GET['idEpreuve'].'"'?> method="post">
 					<td></td>
 					<td></td>
-					<td></td>
+					<td>
+						<select name="id">
+							<?php 
+								foreach ($liste_etudiants as $key => $value) {
+									echo '<option value="'.$value[0].'">'.$value[1].' - '.$value[2].'</option>';
+								}
+							?>
+							
+						</select>
+					</td>
 					<td><input name="resultat" type="text" placeholder="nombre de points"/></td>
 					<td></td>
 					<input name="idManif" type="hidden" value=<?= '"'.$_GET['idManif'].'"' ?> ></input>
 					<input name="idEpreuve" type="hidden" value=<?= '"'.$_GET['idEpreuve'].'"' ?> ></input>
+					<input name="action" type="hidden" value="add"/>
 					<td><input type="submit" value="Ajouter"/></td>
 				</form>
 			</tr>

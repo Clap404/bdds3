@@ -13,7 +13,14 @@
 			del_etu_epreuve();
 		}
 	}
-	if(isset($_POST['resultat'] ,$_POST['idManif'], $_POST['idEpreuve'], $_POST['id'])) {
+	elseif(isset($_POST['resultat'] ,$_POST['idManif'], $_POST['idEpreuve'], $_POST['id'], $_POST['action']) && $_POST['action'] === "add") {
+		if(empty($_POST['resultat']) || empty($_POST['idManif']) || empty($_POST['idEpreuve']) || empty($_POST['id'])) {
+		}
+		else {
+			add_resultat();
+		}
+	}
+	elseif(isset($_POST['resultat'] ,$_POST['idManif'], $_POST['idEpreuve'], $_POST['id'])) {
 		if(empty($_POST['resultat']) || empty($_POST['idManif']) || empty($_POST['idEpreuve']) || empty($_POST['id'])) {
 		}
 		else {

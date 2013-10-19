@@ -39,3 +39,18 @@
 		$req->execute(array($_POST['resultat'] ,$_POST['idManif'], $_POST['idEpreuve'], $_POST['id']));
 		$req->closeCursor();	
 	}
+
+	function add_resultat() {
+		$connexion = db_connect();
+		$req = $connexion->prepare("INSERT INTO Participe VALUES(?, ?, ?, ?) ;");
+		$req->execute(array($_POST['idManif'], $_POST['idEpreuve'], $_POST['id'], $_POST['resultat']) );
+		$req->closeCursor();	
+	}
+
+	function liste_deroulante_etudiants() {
+		$connexion = db_connect();
+		$req = $connexion->query("SELECT ET.id_etu, ET.nom_etu, I.nom_iut FROM Etudiant ET, Iut I WHERE ET.id_iut = I.id_iut ORDER BY ET.nom_etu ;");
+		$data = $req->fetchAll();
+		$req->closeCursor();
+		return $data;
+	}
