@@ -5,7 +5,7 @@
 
 	$name_manif = get_name_manif($_GET['idManif']);
 	$name_epreuve = get_name_epreuve($_GET['idManif']);
-	$title = "Etudiants partcipant à l'épreuve ".$name_epreuve[0]." de la manifestation ".$name_manif[0];
+	$title = "Participants en ".$name_epreuve[0]." à ".$name_manif[0];
 
 	if(isset($_GET['idManif'], $_GET['idEpreuve'], $_GET['act'], $_GET['id']))
 	{

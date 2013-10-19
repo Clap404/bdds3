@@ -2,9 +2,10 @@
 	ob_start();
 
 	$table_contenu = get_epreuves_manif();
+	$liste_epreuves = liste_deroulante_epreuves();
 ?>
 	<div class="previous">
-			<a href="?p=manifestations">Manifestations</a>
+			<a href="?p=manifestations">Manifestations</a>/<?= $name_manif[0] ?>
 		<br />
 	</div>
 
@@ -17,6 +18,24 @@
 			</tr>
 		</thead>
 		<tbody>
+			<tr id="add">
+				<form action=<?= '"?p=lstEpreuve&amp;idManif='.$_GET['idManif'].'"'?> method="post">
+					<td></td>
+					<td>
+						<select name="id">
+							<?php 
+								foreach ($liste_epreuves as $key => $value) {
+									echo '<option value="'.$value[0].'">'.$value[1].'</option>';
+								}
+							?>
+							
+						</select>
+					</td>
+					<input type="hidden" value=<?= '"'.$_GET['idManif'].'"'?> name="idManif"/>
+					<input type="hidden" value="add" name="act"/>
+					<td><input type="submit" value="Ajouter"/></td>
+				</form>
+			</tr>
 <?php
 			foreach ($table_contenu as $key => $value) {
 ?>

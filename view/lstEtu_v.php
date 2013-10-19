@@ -53,7 +53,7 @@
 		}
 	</script>
 	<div class="previous">
-			<a href="?p=manifestations">Manifestations</a> / <a <?='href="?p=lstEpreuve&amp;idManif='.$_GET['idManif'].'">'.$name_manif[0]?></a>	
+			<a href="?p=manifestations">Manifestations</a> / <a <?='href="?p=lstEpreuve&amp;idManif='.$_GET['idManif'].'">'.$name_manif[0]?></a>
 		<br />
 	</div>
 	<table>

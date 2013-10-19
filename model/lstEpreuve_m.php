@@ -23,3 +23,18 @@
 		$req->execute(array($_GET['idManif'], $_GET['id']));
 		$req->closeCursor();
 	}
+
+	function add_epreuve_manif() {
+		$connexion = db_connect();
+		$req = $connexion->prepare("INSERT INTO Contenu VALUES(?, ?);");
+		$req->execute(array($_POST['idManif'], $_POST['id']));
+		$req->closeCursor();
+	}
+
+	function liste_deroulante_epreuves() {
+		$connexion = db_connect();
+		$req = $connexion->query("SELECT id_epreuve, nom_epreuve FROM Epreuve ORDER BY nom_epreuve ;");
+		$data = $req->fetchAll();
+		$req->closeCursor();
+		return $data;
+	}
