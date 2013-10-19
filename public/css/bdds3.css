@@ -38,20 +38,16 @@ img.icon{
 nav ul {
     list-style-type: none;
     position: relative;
-    display: block;
     height: 26px;
     font-weight: bold;
     background-color: #333333;
     border: solid #333333;
     border-top: solid #454545;
     border-radius: 8px;
-    width: auto;
     padding: 0;
 }
 
 nav ul li {
-    margin-left: 0px;
-    display: block;
     float: left;
     padding: 0;
     line-height: 1em;
@@ -63,11 +59,11 @@ nav li a {
     display: block;
     color: #999999;
     font-weight: bold;
-    padding: 8px 20px 0 20px;  
+    padding: 8px 0 0 0;  
     text-decoration: none;
 }
 
-nav li a:hover {
+nav li:hover a {
 	color: #FFFFFF;
 	height: 18px;
     border-bottom: 3px solid #00b3f7;
