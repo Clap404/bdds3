@@ -13,6 +13,14 @@
 			del_etu_epreuve();
 		}
 	}
+	if(isset($_POST['resultat'] ,$_POST['idManif'], $_POST['idEpreuve'], $_POST['id'])) {
+		if(empty($_POST['resultat']) || empty($_POST['idManif']) || empty($_POST['idEpreuve']) || empty($_POST['id'])) {
+		}
+		else {
+			modif_resultat();
+		}
+	}
+
 
 	require("view/lstEtu_v.php");
 	require("view/base_template.php");

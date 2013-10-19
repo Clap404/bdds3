@@ -32,3 +32,10 @@
 		$req->execute(array($_GET['idManif'], $_GET['idEpreuve'], $_GET['id']));
 		$req->closeCursor();	
 	}
+
+	function modif_resultat() {
+		$connexion = db_connect();
+		$req = $connexion->prepare("UPDATE Participe SET resultat=? WHERE id_manif = ? AND id_epreuve = ? AND id_etu = ?;");
+		$req->execute(array($_POST['resultat'] ,$_POST['idManif'], $_POST['idEpreuve'], $_POST['id']));
+		$req->closeCursor();	
+	}
