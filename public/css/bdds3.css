@@ -9,12 +9,13 @@ body {
 }
 
 h1 {
-    color: #454545;
+    color: #7F7F7F;
     display: inline-block;
 	text-align: center;
 	font-size: 40px;
-    background-color: rgba(00, 179, 247, 0.5);
+    background-color: #007497;
     border-radius: 0 0 0 20px;
+    box-shadow: 0px 0px 4px 4px #808080 ;
     padding: 7px;
 }
 

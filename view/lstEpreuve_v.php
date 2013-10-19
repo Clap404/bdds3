@@ -5,7 +5,7 @@
 	$liste_epreuves = liste_deroulante_epreuves();
 ?>
 	<div class="previous">
-			<a href="?p=manifestations">Manifestations</a>/<?= $name_manif[0] ?>
+			<a href="?p=manifestations">Manifestations</a> / <span class="subsection"><?= $name_manif[0] ?></span>
 		<br />
 	</div>
 
