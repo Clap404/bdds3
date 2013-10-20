@@ -26,7 +26,24 @@
             break;
 
             default:
-               echo "<h1>Error 404 Not Found : La page demandé n'existe pas</h1><br/><h2>Have you tried to turn it off and on again ?</h2>";
+                echo "<meta charset='utf-8'>
+                <style>
+                body{
+                    font-family:courier;
+                    background-color:black;
+                    color:green;
+                }
+                .blink {
+                    animation: blink 1s steps(5, start) infinite;
+                }
+                @keyframes blink {
+                    to {
+                        visibility: hidden;
+                    }
+                }
+                </style>
+                <h1>Error 404 Not Found : La page demandée n'existe pas</h1><br/>
+                <h2>Have you tried turning it off and on again ? <span class='blink'>▒</span></h2>";
             break;
         }
     }
