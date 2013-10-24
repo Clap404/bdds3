@@ -40,10 +40,10 @@ function getUrlVars(){
 
 function underlineCurrent(){
     var p = getUrlVars().p;
-    (p.contains("lst")) ? p = "manifestations" : undefined;
-    (p.contains("profil")) ? p = "etudiants" : undefined;
     
     if(typeof(p) !== "undefined"){
+        (p.contains("lst")) ? p = "manifestations" : undefined;
+        (p.contains("profil")) ? p = "etudiants" : undefined;
         document.querySelector("nav li a[href='?p="+p+"']").setAttribute("class", "active");
     } else {
         document.querySelector("nav li a[href='index.php']").setAttribute("class", "active");
