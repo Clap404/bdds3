@@ -25,8 +25,13 @@
                 require("controller/lstEtu.php");
             break;
 
+            case "profilEtu":
+                require("controller/profilEtu.php");
+            break;
+
             default:
-                echo "<meta charset='utf-8'>
+                echo "
+                <meta charset='utf-8'>
                 <style>
                 body{
                     font-family:courier;

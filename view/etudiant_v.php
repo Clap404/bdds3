@@ -38,6 +38,10 @@
 			bindActionBySelector(showEditForm, ".edit");	
 		}
 	</script>
+	<div class="previous">
+			<span class="subsection">Étudiants</span>
+		<br />
+	</div>
 	<table>
 		<thead>
 			<tr>
@@ -114,6 +118,7 @@
 					<a class="edit" id=<?= '"x'.$value[0].'"' ?>><img src="public/images/edit.png" class="icon"/></a>
 					<a href=<?= '"?p=etudiants&amp;act=delete&amp;id='.$value[0].'"'
 						?> class="delete" id=<?= '"x'.$value[0].'"' ?>><img src="public/images/delete.png" class="icon"/></a>
+					<a title="Afficher les participations" href=<?='"?p=profilEtu&amp;idEtu='.$value[0].'"'?>><img src="public/images/runner.png" class="icon"/></a>
 				</td>
 
 		<?php
