@@ -12,9 +12,9 @@
 	<table>
 		<thead>
 			<tr>
-				<td>id_epreuve</td>
-				<td>nom_epreuve</td>
-				<td>Action</td>	
+				<td>ID</td>
+				<td>Epreuves</td>
+				<td>Actions</td>	
 			</tr>
 		</thead>
 		<tbody>
