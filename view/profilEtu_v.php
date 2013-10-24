@@ -46,11 +46,11 @@
     <table>
         <thead>
             <tr>
-                <td>id_participation</td>
-                <td><a href=<?='"?p=profilEtu&amp;idEtu='.$_GET["idEtu"].'&amp;order=nom_manif&amp;desc='.(int)!$desc.'"'?>>nom_manif</a></td>
-                <td><a href=<?='"?p=profilEtu&amp;idEtu='.$_GET["idEtu"].'&amp;order=date_manif&amp;desc='.(int)!$desc.'"'?>>date_manif</a></td>
-                <td><a href=<?='"?p=profilEtu&amp;idEtu='.$_GET["idEtu"].'&amp;order=nom_epreuve&amp;desc='.(int)!$desc.'"'?>>nom_epreuve</a></td>
-                <td><a href=<?='"?p=profilEtu&amp;idEtu='.$_GET["idEtu"].'&amp;order=resultat&amp;desc='.(int)!$desc.'"'?>>resultat</a></td>
+                <td>id</td>
+                <td><a href=<?='"?p=profilEtu&amp;idEtu='.$_GET["idEtu"].'&amp;order=nom_manif&amp;desc='.(int)!$desc.'"'?>>Manifestation</a></td>
+                <td><a href=<?='"?p=profilEtu&amp;idEtu='.$_GET["idEtu"].'&amp;order=date_manif&amp;desc='.(int)!$desc.'"'?>>Date</a></td>
+                <td><a href=<?='"?p=profilEtu&amp;idEtu='.$_GET["idEtu"].'&amp;order=nom_epreuve&amp;desc='.(int)!$desc.'"'?>>Épreuve</a></td>
+                <td><a href=<?='"?p=profilEtu&amp;idEtu='.$_GET["idEtu"].'&amp;order=resultat&amp;desc='.(int)!$desc.'"'?>>Résultat</a></td>
                 <td>Action</td>
             </tr>
         </thead>
