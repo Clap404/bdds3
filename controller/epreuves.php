@@ -1,5 +1,5 @@
 <?php
-	$title = "Epreuves";
+	$title = "Épreuves";
 	require("config.php");
 	require("model/base_model.php");
 	require("model/epreuves_m.php");

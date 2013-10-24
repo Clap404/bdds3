@@ -8,47 +8,6 @@
 	<script type="text/javascript">
 		window.onload = function(){
 			document.querySelector("tr#edit").style.display = "none";
-			
-			function showEditForm(){
-			    restoreLine();
-			    resetOptions();
-
-			    var lineId = this.getAttribute("id");
-			    var line = document.querySelector("tr#"+lineId);
-			    var cells = document.querySelectorAll("tr#"+lineId+" td");
-			    var form = document.querySelector("tr#edit");
-			    
-			    var formFields = document.querySelectorAll("tr#edit td input, tr#edit td select");
-			    var selectFields = document.querySelectorAll("tr#edit td select");
-
-			    var currentSelect = 0;
-
-			    for (var i = 0 ; i < formFields.length -1; i++) {
-			        if ( formFields[i].tagName === "INPUT") {
-			            if (formFields[i].getAttribute("type") === "date") {
-			                formFields[i].value = convertDate(cells[i].innerHTML) ;
-			         	//ajout de lignes ici
-			            } else if(formFields[i].getAttribute("class") === "withSuffix") {
-			                formFields[i].value = cells[i].innerHTML.split(" ")[0];
-			            } else {
-			            	formFields[i].value = cells[i].innerHTML;
-			            }
-			        
-			        } else {
-			            var selectDefaultValue = cells[i].getAttribute("value");
-			            var defaultOption = selectFields[currentSelect].querySelector("option[value='"+selectDefaultValue+"']");
-			            defaultOption.setAttribute("selected","selected" );
-			            currentSelect ++;
-			        }
-			    };
-
-			    line.parentNode.insertBefore(form,line);
-
-			    form.style.display = "table-row";
-			    line.style.display = "none";
-			    document.lastLine = line;
-			};
-
 			bindActionBySelector(showEditForm, ".edit");
 		}
 	</script>

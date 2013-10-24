@@ -41,6 +41,7 @@ function getUrlVars(){
 function underlineCurrent(){
     var p = getUrlVars().p;
     (p.contains("lst")) ? p = "manifestations" : undefined;
+    (p.contains("profil")) ? p = "etudiants" : undefined;
     
     if(typeof(p) !== "undefined"){
         document.querySelector("nav li a[href='?p="+p+"']").setAttribute("class", "active");
@@ -83,8 +84,8 @@ function showEditForm(){
     var cells = document.querySelectorAll("tr#"+lineId+" td");
     var form = document.querySelector("tr#edit");
     
-    var formFields = document.querySelectorAll("tr#edit input, tr#edit select");
-    var selectFields = document.querySelectorAll("tr#edit select");
+    var formFields = document.querySelectorAll("tr#edit td input, tr#edit td select");
+    var selectFields = document.querySelectorAll("tr#edit td select");
 
     var currentSelect = 0;
 
@@ -92,8 +93,10 @@ function showEditForm(){
         if ( formFields[i].tagName === "INPUT") {
             if (formFields[i].getAttribute("type") === "date") {
                 formFields[i].value = convertDate(cells[i].innerHTML) ;
+            } else if(formFields[i].getAttribute("class") === "withSuffix") {
+                formFields[i].value = cells[i].innerHTML.split(" ")[0];
             } else {
-                formFields[i].value = cells[i].innerHTML ;
+                formFields[i].value = cells[i].innerHTML;
             }
         
         } else {

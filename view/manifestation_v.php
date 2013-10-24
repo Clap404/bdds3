@@ -36,7 +36,10 @@
 			bindActionBySelector(showEditForm, ".edit");	
 		}
 	</script>
-
+	<div class="previous">
+			<span class="subsection">Manifestations</span>
+		<br />
+	</div>
 	<table>
 		<thead>
 			<tr>

@@ -38,6 +38,10 @@
 			bindActionBySelector(showEditForm, ".edit");	
 		}
 	</script>
+	<div class="previous">
+			<span class="subsection">Étudiants</span>
+		<br />
+	</div>
 	<table>
 		<thead>
 			<tr>

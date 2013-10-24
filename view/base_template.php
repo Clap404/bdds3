@@ -18,8 +18,8 @@
                 <li><a href="index.php">Accueil</a></li>
                 <li><a href="?p=manifestations">Manifestations</a></li>
                 <li><a href="?p=iut">IUT</a></li>
-                <li><a href="?p=etudiants">Etudiants</a></li>
-                <li><a href="?p=epreuves">Epreuves</a></li>
+                <li><a href="?p=etudiants">Étudiants</a></li>
+                <li><a href="?p=epreuves">Épreuves</a></li>
             </ul>
         </nav>
 
