@@ -40,10 +40,10 @@
 	<table>
 		<thead>
 			<tr>
-				<td>id_manif</td>
-				<td><a href=<?='"?p=manifestations&amp;order=name&amp;desc='.(int)!$desc.'"'?>>nom_manif</a></td>
-				<td><a href=<?='"?p=manifestations&amp;order=date&amp;desc='.(int)!$desc.'"'?>>date_manif</a></td>
-				<td><a href=<?='"?p=manifestations&amp;order=iut&amp;desc='.(int)!$desc.'"'?>>nom_iut</a></td></td>
+				<td>ID</td>
+				<td><a href=<?='"?p=manifestations&amp;order=name&amp;desc='.(int)!$desc.'"'?>>Manifestations</a></td>
+				<td><a href=<?='"?p=manifestations&amp;order=date&amp;desc='.(int)!$desc.'"'?>>Date</a></td>
+				<td><a href=<?='"?p=manifestations&amp;order=iut&amp;desc='.(int)!$desc.'"'?>>Iut</a></td></td>
 				<td>Actions</td>
 			</tr>
 		</thead>

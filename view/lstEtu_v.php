@@ -59,12 +59,12 @@
 	<table>
 		<thead>
 			<tr>
-				<td>id_etu</td>
+				<td>ID</td>
 				<td>Classement</td>
-				<td>nom_etu</td>
+				<td>Nom</td>
 				<td>Résultat</td>
 				<td>Iut</td>
-				<td>Action</td>
+				<td>Actions</td>
 			</tr>
 		</thead>
 		<tbody>

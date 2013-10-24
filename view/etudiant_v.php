@@ -41,11 +41,11 @@
 	<table>
 		<thead>
 			<tr>
-				<td>id_etu</td>
-				<td><a href=<?='"?p=etudiants&amp;order=name&amp;desc='.(int)!$desc.'"'?>>nom_etu</a></td>
-				<td><a href=<?='"?p=etudiants&amp;order=date&amp;desc='.(int)!$desc.'"'?>>date_naissance_etu</a></td>
-				<td><a href=<?='"?p=etudiants&amp;order=sexe&amp;desc='.(int)!$desc.'"'?>>sexe_etu</a></td>
-				<td><a href=<?='"?p=etudiants&amp;order=iut&amp;desc='.(int)!$desc.'"'?>>id_iut</a></td>
+				<td>ID</td>
+				<td><a href=<?='"?p=etudiants&amp;order=name&amp;desc='.(int)!$desc.'"'?>>Nom</a></td>
+				<td><a href=<?='"?p=etudiants&amp;order=date&amp;desc='.(int)!$desc.'"'?>>Date de naissance</a></td>
+				<td><a href=<?='"?p=etudiants&amp;order=sexe&amp;desc='.(int)!$desc.'"'?>>Sexe</a></td>
+				<td><a href=<?='"?p=etudiants&amp;order=iut&amp;desc='.(int)!$desc.'"'?>>Iut</a></td>
 				<td>Actions</td>
 			</tr>
 		</thead>

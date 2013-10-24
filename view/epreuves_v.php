@@ -20,8 +20,8 @@
 	<table>
 		<thead>
 			<tr>
-				<td>id_epreuve</td>
-				<td><a href=<?='"?p=epreuves&amp;desc='.(int)!$desc.'"'?>>nom_epreuve</a></td>
+				<td>ID</td>
+				<td><a href=<?='"?p=epreuves&amp;desc='.(int)!$desc.'"'?>>Epreuves</a></td>
 				<td>Actions</td>
 			</tr>
 		</thead>

@@ -37,11 +37,11 @@
 	<table>
 		<thead>
 			<tr>
-				<td>id_iut</td>
-				<td><a href=<?='"?p=iut&amp;order=name&amp;desc='.(int)!$desc.'"'?>>nom_iut</a></td>
+				<td>ID</td>
+				<td><a href=<?='"?p=iut&amp;order=name&amp;desc='.(int)!$desc.'"'?>>IUT</a></td>
 				<td><a href=<?='"?p=iut&amp;order=adresse&amp;desc='.(int)!$desc.'"'?>>adresse</a></td>
-				<td><a href=<?='"?p=iut&amp;order=nbetu&amp;desc='.(int)!$desc.'"'?>>nb_etu</a></td>
-				<td>Action</td>
+				<td><a href=<?='"?p=iut&amp;order=nbetu&amp;desc='.(int)!$desc.'"'?>>Nombre d'étudiants</a></td>
+				<td>Actions</td>
 			</tr>
 		</thead>
 		<tbody>
