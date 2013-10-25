@@ -24,6 +24,7 @@ div {
 	margin-top: 20px;
 	margin-right: 2%;
 	width: 31%;
+    vertical-align: top;
 }
 
 img.icon{
