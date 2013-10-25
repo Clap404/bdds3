@@ -52,5 +52,68 @@ d'accéder à la liste des étudiants par épreuves.</p></li>
 <li><p><img src="public/images/profil.png" alt="lstetu" title="" /> &rarr; Cliquer sur cette icone vous 
 permettra d'accèder au profil d'un étudiant.</p></li>
 </ul>
+
+<h3>Les vues de tables</h3>
+
+<table>
+    <thead>
+            <tr>
+                <td>ID</td>
+                <td><a href="">Manifestations</a></td>
+                <td><a href="">Date</a></td>
+                <td><a href="">Iut</a></td></td>
+                <td>Actions</td>
+            </tr>
+    </thead>
+
+    <tbody>
+            <tr id="add">
+                <form method="post">
+                    <td></td>
+                    <td><input name="name" type="text" placeholder="Nom de la manifestation"/></td>
+                    <td><input name="date" type="date" placeholder="aaaa-mm-yy"/></td>
+                    <td>
+                        <select name="iut">
+                            <option value="1">Mount Pearl</option><option value="2">Bayreuth</option><option value="3">Plauen</option><option value="4">Episcopia</option><option value="5">Evansville</option><option value="6">Clydebank</option><option value="7">Iqaluit</option><option value="8">Motueka</option><option value="9">Montreal</option><option value="10">West Valley City</option><option value="11">Rocca d'Arce</option><option value="12">Bierges</option><option value="13">Fino Mornasco</option><option value="14">Sulzbach</option><option value="15">Stevenage</option><option value="16">Fort Wayne</option><option value="17">Alsemberg</option><option value="18">Leamington</option><option value="19">Heilbronn</option><option value="20">IJlst</option>
+                        </select>
+                    </td>
+                    <td><input type="submit" value="Ajouter"/></td>
+                </form>
+            </tr>
+        
+            <tr id="x12">
+                <td>12</td>
+                <td>eget</td>
+                <td>14/05/2006</td>
+                <td value="16" >Fort Wayne</td>
+
+                <td>
+                    <a class="edit" id="x12"><img src="public/images/edit.png" class="icon"/></a>
+                    <a class="delete" id="x12"><img src="public/images/delete.png" class="icon"/></a>
+                    <a title="Afficher la liste des épreuves" ><img src="public/images/runner.png" class="icon"/></a>
+                </td>
+            </tr>
+
+        
+            <tr id="x8">
+                <td>8</td>
+                <td>Etiam</td>
+                <td>16/11/2011</td>
+                <td value="4" >Episcopia</td>
+
+                <td>
+                    <a class="edit" id="x8"><img src="public/images/edit.png" class="icon"/></a>
+                    <a lass="delete" id="x8"><img src="public/images/delete.png" class="icon"/></a>
+                    <a title="Afficher la liste des épreuves" ><img src="public/images/runner.png" class="icon"/></a>
+                </td>
+            </tr>
+    </tbody>
+</table>
+
+    <p>Les boutons sur la dernière colonne permettent respectivement de modifier, supprimer ou accéder à la fonction spéciale suivant l'ongler.</p>
+    <p>Le bouton modifier va faire apparaître le formulaire prérempli de la ligne séléctionnée.</p>
+    <p>Certaines têtes de colonnes permettent de classer par ordre alphabétique ou désalphabétique par le contenu de la colonne cliquée. Les colonnes cliquables afficheront un curseur de lien si elles sont activables.</p>
+
+<br><br><br>
 </body>
 </html>
